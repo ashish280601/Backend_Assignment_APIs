@@ -33,4 +33,4 @@ const closeDB = async () => {
   }
 };
 
-export { connectDB, closeDB }
+export { connectDB, closeDB, sequelize }
