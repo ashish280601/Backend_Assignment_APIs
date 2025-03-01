@@ -5,6 +5,7 @@ import cors from "cors";
 
 // custom import
 import {connectDB, closeDB} from "./src/config/db.js";
+import router from "./routes.js";
 
 
 const app = express()
@@ -19,7 +20,7 @@ var corsOptions = {
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// app.use('/api', router)
+app.use('/api', router)
 
 app.listen(port, async () => {
     try {

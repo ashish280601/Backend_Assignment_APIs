@@ -2,10 +2,7 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../../config/db.js";
 
-// customs import package
-import withTimestamps from "../../utils/timestampHelper.js";
-
-const userSchema = {
+const UsersModel = sequelize.define("Users", {
     id: {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
@@ -20,8 +17,12 @@ const userSchema = {
         type: DataTypes.STRING,
         allowNull: true,
     },
-    opt: {
-        type: DataTypes.NUMBER,
+    otp: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+    },
+    otpExpiresAt: {
+        type: DataTypes.DATE,
         allowNull: true,
     },
     registrationType: {
@@ -34,11 +35,17 @@ const userSchema = {
     },
     appleId: {
         type: DataTypes.STRING,
-        allowNull: true,  
+        allowNull: true,
+    },
+    status: {
+        type: DataTypes.ENUM('PENDING', 'REGISTERED'),
+        allowNull: false,
+        defaultValue: 'PENDING'
     }
-}
+}, {
+    tableName: "users",
+    freezeTableName: true,
+    timestamps: true,
+});
 
-const Users = sequelize.define("Users", withTimestamps(userSchema));
-
-export default Users;
-
+export default UsersModel;
