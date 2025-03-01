@@ -1,13 +1,17 @@
+import { DataTypes } from "sequelize";
+
 const withTimestamps = (modelDefinition) => {
     return {
         ...modelDefinition,
         createdAt: {
-            type: 'TIMESTAMP',
-            defaultValue: sequelize.literal('CURRENT_TIMESTAMP') // Database default, not Sequelize internal tracking
+            type: DataTypes.DATE,
+            defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
+            allowNull: false,
         },
         updatedAt: {
-            type: 'TIMESTAMP',
-            defaultValue: sequelize.literal('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP') // Auto-update in DB layer
+            type: DataTypes.DATE,
+            defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
+            allowNull: false,
         }
     };
 };
