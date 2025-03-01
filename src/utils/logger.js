@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 // File paths
-const logsDir = path.join(process.cwd(), 'logs');
+const logsDir = path.join(process.cwd(), 'src', 'utils', 'logs');
 
 const controllerLogFile = path.join(logsDir, 'controller.log');
 const repositoryLogFile = path.join(logsDir, 'repository.log');
