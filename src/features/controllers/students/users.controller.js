@@ -21,9 +21,6 @@ export default class UserController {
 
         try {
             const existingUser = await this.userRepository.findUserByEmail(email);
-            console.log("existing user", existingUser);
-
-
             const otp = generateOtp();
 
             const expiresAt = otpExpiryTime();
@@ -66,7 +63,7 @@ export default class UserController {
                 });
             } else {
                 // Create new user with PENDING status
-                await this.userRepository.createPendingUser(email, otp, expiresAt);
+                await this.userRepository.createPendingUser(email, otp, expiresAt, 'Student');
                 await OPTVerifyEmail(email, otp)
                 controllerLogger.info(`New OTP sent to new user: ${email}`);
 
@@ -199,11 +196,12 @@ export default class UserController {
     async login(req, res) {
         const { email, password } = req.body;
 
-        const JWT_EXPIRY = '1m';
+        const JWT_EXPIRY = '1h';
 
         try {
             const user = await this.userRepository.findUserByEmail(email);
-
+            console.log("users.....", user);
+            
             if (!user) {
                 return res.status(400).json({
                     data: {
@@ -229,15 +227,21 @@ export default class UserController {
 
             // Generate JWT token if email and password are correct
             const token = jwt.sign(
-                { email: user.email, userId: user.id },
+                { email: user.email, userId: user.id, role: user.role },
                 process.env.JWT_SECRET,
                 { expiresIn: JWT_EXPIRY }
             );
-
+            console.log("user Role", user.role);
+            
             return res.status(200).json({
                 data: {
                     message: "Login successful.",
                     token,
+                    user: {
+                        id: user.id,
+                        email: user.email,
+                        role: user.role
+                    },
                     code: 200,
                     status: true
                 }

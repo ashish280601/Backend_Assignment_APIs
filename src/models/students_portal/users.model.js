@@ -41,11 +41,23 @@ const UsersModel = sequelize.define("Users", {
         type: DataTypes.ENUM('PENDING', 'REGISTERED'),
         allowNull: false,
         defaultValue: 'PENDING'
+    },
+    role: {
+        type: DataTypes.ENUM('Admin', 'Tutor', 'Student', 'Staff'),
+        allowNull: false,
+        defaultValue: 'Student'
     }
 }, {
     tableName: "users",
     freezeTableName: true,
     timestamps: true,
 });
+
+UsersModel.associate = (models) => {
+    UsersModel.hasOne(models.UserProfile, { foreignKey: 'userId', as: 'profile' });
+    UsersModel.hasMany(models.Qualification, { foreignKey: 'userId', as: 'qualifications' });
+    UsersModel.hasMany(models.Test, { foreignKey: 'userId', as: 'tests' });
+    UsersModel.hasOne(models.Passport, { foreignKey: 'userId', as: 'passport' });
+};
 
 export default UsersModel;

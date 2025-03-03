@@ -1,4 +1,4 @@
-import UsersModel from "../../../models/students/users.model.js";
+import UsersModel from "../../../models/students_portal/users.model.js";
 import { repositoryLogger } from "../../../utils/logger.js";
 
 export default class UserRepository {

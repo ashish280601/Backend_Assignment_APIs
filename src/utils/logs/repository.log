@@ -4,3 +4,403 @@
 [2025-03-01T18:27:29.412Z] [INFO] Fetched user by email: asmehra0628@gmail.com
 [2025-03-01T18:27:29.546Z] [INFO] User registration completed: asmehra0628@gmail.com
 [2025-03-01T18:27:40.890Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-01T18:41:46.707Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-01T18:41:46.742Z] [INFO] Created new pending user: asmehra0628@gmail.com
+[2025-03-01T18:42:16.186Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-01T18:42:37.771Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-01T18:42:37.900Z] [INFO] User registration completed: asmehra0628@gmail.com
+[2025-03-02T15:00:39.205Z] [INFO] Fetched user by email: shubhamtopwal20199@gmail.com
+[2025-03-02T15:00:39.673Z] [INFO] Created new pending user: shubhamtopwal20199@gmail.com
+[2025-03-02T15:00:39.770Z] [ERROR] Failed to create pending user shubhamtopwal20199@gmail.com: Validation error
+[2025-03-02T15:00:39.579Z] [INFO] Fetched user by email: shubhamtopwal20199@gmail.com
+[2025-03-02T15:02:05.200Z] [INFO] Fetched user by email: shubhamtopwal20199@gmail.com
+[2025-03-02T15:02:05.258Z] [INFO] Updated OTP for user: shubhamtopwal20199@gmail.com
+[2025-03-02T15:03:22.469Z] [INFO] Fetched user by email: anooptopwal8@gmail.com
+[2025-03-02T15:03:22.693Z] [INFO] Created new pending user: anooptopwal8@gmail.com
+[2025-03-02T18:54:45.646Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-02T19:01:17.705Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-02T19:01:41.539Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:02:01.016Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:02:21.999Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:03:38.278Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:09:12.989Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:11:03.205Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:11:26.305Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:12:33.498Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:20:40.613Z] [INFO] findUserById - Finding user by ID
+[2025-03-02T19:30:20.235Z] [INFO] upsertProfileData - Upserting profile data
+[2025-03-02T19:31:55.103Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-02T19:31:55.110Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-02T19:34:19.514Z] [INFO] upsertProfileData - Upserting profile data
+[2025-03-02T19:36:57.368Z] [INFO] upsertProfileData - Upserting profile data
+[2025-03-02T19:38:01.428Z] [INFO] upsertProfileData - Upserting profile data
+[2025-03-02T19:43:25.779Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-02T19:43:25.779Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-02T19:43:25.804Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-02T19:43:34.938Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-02T19:43:34.938Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-02T19:43:34.943Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-02T19:58:30.263Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-02T19:58:30.263Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-02T19:58:30.295Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-02T19:58:48.552Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-02T19:58:48.552Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-02T19:58:48.560Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-02T20:01:41.337Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-02T20:01:58.073Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-02T20:01:58.073Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-02T20:01:58.105Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-02T20:07:51.151Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-02T20:07:51.151Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-02T20:07:51.186Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-02T20:07:55.622Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-02T20:07:55.622Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-02T20:07:55.626Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T05:52:31.255Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T05:52:46.282Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T05:52:46.283Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T05:52:46.309Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T05:54:19.292Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T05:54:19.291Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T05:54:19.330Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T05:54:32.494Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T05:54:32.494Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T05:54:32.503Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T05:55:16.053Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T05:55:16.053Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T05:55:16.087Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T05:55:31.194Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T05:55:31.195Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T05:55:31.226Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T05:57:28.154Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T05:57:28.154Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T05:57:28.169Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T05:59:18.017Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T05:59:18.018Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T05:59:18.041Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T06:00:07.392Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T06:00:07.392Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T06:00:07.447Z] [WARN] upsertProfileData - Qualifications is not an array
+[2025-03-03T06:00:07.448Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T06:00:07.447Z] [INFO] upsertProfileData - Created personal details
+[2025-03-03T06:00:07.455Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T06:00:07.455Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T06:46:11.938Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T06:46:11.938Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T06:46:11.965Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T06:46:11.978Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T06:46:12.009Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T06:53:10.073Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T06:53:23.659Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T06:53:23.659Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T06:53:23.670Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T06:53:23.681Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T06:53:23.710Z] [INFO] upsertProfileData - Inserted qualifications
+[2025-03-03T06:53:23.719Z] [INFO] upsertProfileData - Cleared old tests
+[2025-03-03T06:53:23.735Z] [INFO] upsertProfileData - Inserted tests
+[2025-03-03T06:53:23.752Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T06:53:23.752Z] [INFO] upsertProfileData - Created passport
+[2025-03-03T06:55:12.866Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T06:55:12.876Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T06:55:28.418Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T06:55:28.419Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T06:59:47.488Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T06:59:47.488Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T07:00:03.108Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T07:00:03.114Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T07:46:23.734Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T07:46:23.739Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T07:46:42.114Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T07:46:42.120Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T07:59:16.892Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T07:59:29.538Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T07:59:29.545Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T07:59:41.221Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T07:59:41.224Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T08:04:56.132Z] [ERROR] getProfileByUserId - Error retrieving profile
+[2025-03-03T08:04:56.126Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T08:07:54.155Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T08:07:54.234Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T08:11:34.807Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T08:11:34.873Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T08:17:15.696Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T08:17:15.846Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T08:18:19.158Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:18:19.255Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T08:18:19.255Z] [ERROR] deleteSingleEntity - Error deleting entity
+[2025-03-03T08:18:54.071Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:18:54.159Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T08:18:54.173Z] [ERROR] deleteSingleEntity - Error deleting entity
+[2025-03-03T08:19:00.519Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:19:00.521Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T08:19:00.534Z] [INFO] deleteSingleEntity - Deleted entity successfully
+[2025-03-03T08:19:42.539Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:19:42.622Z] [INFO] deleteAllProfileData - Deleting all profile data
+[2025-03-03T08:19:42.644Z] [INFO] deleteAllProfileData - All profile data deleted
+[2025-03-03T08:20:20.753Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T08:20:20.851Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T08:20:44.528Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:20:44.529Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:20:44.580Z] [INFO] upsertProfileData - Created personal details
+[2025-03-03T08:20:44.586Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T08:20:44.598Z] [INFO] upsertProfileData - Inserted qualifications
+[2025-03-03T08:20:44.603Z] [INFO] upsertProfileData - Cleared old tests
+[2025-03-03T08:20:44.614Z] [INFO] upsertProfileData - Inserted tests
+[2025-03-03T08:20:44.625Z] [INFO] upsertProfileData - Created passport
+[2025-03-03T08:20:44.625Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:26:31.746Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:26:31.746Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:26:31.762Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:26:31.774Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T08:26:31.795Z] [INFO] upsertProfileData - Inserted qualifications
+[2025-03-03T08:26:31.801Z] [INFO] upsertProfileData - Cleared old tests
+[2025-03-03T08:26:31.811Z] [INFO] upsertProfileData - Inserted tests
+[2025-03-03T08:26:31.820Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:26:31.820Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:27:32.808Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:27:32.926Z] [INFO] deleteAllProfileData - Deleting all profile data
+[2025-03-03T08:27:32.945Z] [INFO] deleteAllProfileData - All profile data deleted
+[2025-03-03T08:27:38.218Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:27:38.218Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:27:38.238Z] [INFO] upsertProfileData - Created personal details
+[2025-03-03T08:27:38.249Z] [INFO] upsertProfileData - Cleared old tests
+[2025-03-03T08:27:38.245Z] [INFO] upsertProfileData - Inserted qualifications
+[2025-03-03T08:27:38.240Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T08:27:38.257Z] [INFO] upsertProfileData - Inserted tests
+[2025-03-03T08:27:38.262Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:27:38.263Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:27:52.218Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:27:52.218Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:27:52.231Z] [WARN] upsertProfileData - Qualifications is not an array
+[2025-03-03T08:27:52.231Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:27:52.231Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:27:52.253Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:27:52.252Z] [INFO] upsertProfileData - Created passport
+[2025-03-03T08:28:44.682Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:28:44.682Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:28:44.692Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:28:44.692Z] [WARN] upsertProfileData - Qualifications is not an array
+[2025-03-03T08:28:44.692Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:28:44.713Z] [INFO] upsertProfileData - Updated passport
+[2025-03-03T08:28:44.714Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:29:37.294Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:29:37.294Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:29:37.314Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:29:37.314Z] [WARN] upsertProfileData - Qualifications is not an array
+[2025-03-03T08:29:37.314Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:29:37.324Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:29:37.324Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:30:00.726Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:30:00.726Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:30:00.743Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T08:30:06.274Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:30:06.274Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:30:06.279Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:30:06.279Z] [WARN] upsertProfileData - Qualifications is not an array
+[2025-03-03T08:30:06.279Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:30:06.286Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:30:06.286Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:30:48.535Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:30:48.535Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:30:48.546Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:30:48.552Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T08:30:48.562Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:30:48.562Z] [INFO] upsertProfileData - Inserted qualifications
+[2025-03-03T08:30:48.568Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:30:48.567Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:32:38.960Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T08:32:39.102Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T08:33:14.322Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:33:14.412Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T08:33:14.412Z] [ERROR] deleteSingleEntity - Error deleting entity
+[2025-03-03T08:33:27.069Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:33:27.168Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T08:33:27.175Z] [INFO] deleteSingleEntity - Deleted entity successfully
+[2025-03-03T08:34:41.841Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:34:41.841Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:34:41.883Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:34:41.892Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T08:34:41.920Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:34:41.919Z] [INFO] upsertProfileData - Inserted qualifications
+[2025-03-03T08:34:41.927Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:34:41.927Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:35:34.728Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:35:34.728Z] [INFO] upsertProfileData - Incoming Data
+[2025-03-03T08:35:34.740Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T08:35:34.748Z] [INFO] upsertProfileData - Cleared old qualifications
+[2025-03-03T08:35:34.760Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:35:34.760Z] [INFO] upsertProfileData - Inserted qualifications
+[2025-03-03T08:35:34.767Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:35:34.767Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:50:02.344Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:50:02.471Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T08:50:02.486Z] [INFO] deleteSingleEntity - Deleted entity successfully
+[2025-03-03T08:50:26.189Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:50:26.277Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T08:50:26.285Z] [INFO] deleteSingleEntity - Deleted entity successfully
+[2025-03-03T08:50:37.131Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T08:50:37.245Z] [INFO] deleteAllProfileData - Deleting all profile data
+[2025-03-03T08:50:37.271Z] [INFO] deleteAllProfileData - All profile data deleted
+[2025-03-03T08:51:30.571Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:51:30.614Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T08:51:30.626Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T08:51:30.626Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:51:30.626Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:51:30.627Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:51:51.257Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:51:51.271Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T08:51:51.271Z] [INFO] upsertProfileData - No passport data provided
+[2025-03-03T08:51:51.271Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:51:51.271Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T08:52:19.812Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:52:19.828Z] [INFO] upsertProfileData - Created new personal details
+[2025-03-03T08:52:19.828Z] [WARN] upsertProfileData - Qualifications is not an array
+[2025-03-03T08:52:19.851Z] [INFO] upsertProfileData - Created test
+[2025-03-03T08:52:19.846Z] [INFO] upsertProfileData - Created test
+[2025-03-03T08:52:19.856Z] [INFO] upsertProfileData - Created test
+[2025-03-03T08:52:19.861Z] [INFO] upsertProfileData - Created test
+[2025-03-03T08:52:19.836Z] [INFO] upsertProfileData - Created test
+[2025-03-03T08:52:19.868Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T08:52:19.868Z] [INFO] upsertProfileData - Created passport
+[2025-03-03T08:54:56.118Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T08:54:56.126Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:03:49.767Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T09:04:04.739Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:04:04.781Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:04:34.918Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:04:34.926Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:07:19.021Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:07:19.021Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:07:19.082Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:07:29.406Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:07:29.406Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:07:29.429Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:07:35.966Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:07:35.966Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:07:35.972Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:11:28.032Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:11:28.032Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:11:28.081Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:12:14.944Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:12:14.943Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:12:14.972Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:15:12.277Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:15:12.277Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:15:12.291Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:15:21.704Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:15:21.704Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:15:21.708Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:16:28.959Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T09:16:29.068Z] [INFO] deleteAllProfileData - Deleting all profile data
+[2025-03-03T09:16:29.093Z] [INFO] deleteAllProfileData - All profile data deleted
+[2025-03-03T09:16:39.120Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:16:39.120Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:16:39.142Z] [INFO] upsertProfileData - Created new personal details
+[2025-03-03T09:16:39.188Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T09:17:23.978Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:17:23.978Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:17:24.000Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T09:17:23.999Z] [INFO] upsertProfileData - Updated personal details
+[2025-03-03T09:19:09.898Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:19:09.898Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:19:09.905Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:19:30.051Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:19:30.051Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:19:30.052Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:20:15.416Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T09:20:15.649Z] [INFO] deleteAllProfileData - Deleting all profile data
+[2025-03-03T09:20:15.677Z] [INFO] deleteAllProfileData - All profile data deleted
+[2025-03-03T09:20:33.077Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:20:33.077Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:20:33.078Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:20:59.965Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:20:59.965Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:20:59.970Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:21:04.870Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:21:04.870Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:21:04.871Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:21:36.611Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:21:36.616Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:21:36.611Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:37:26.607Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:37:26.607Z] [INFO] upsertProfileData - Incoming payload
+[2025-03-03T09:37:26.611Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:37:42.789Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:37:42.793Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:38:08.680Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:38:08.681Z] [WARN] upsertProfileData - Qualifications is not an array
+[2025-03-03T09:38:08.681Z] [WARN] upsertProfileData - Tests is not an array
+[2025-03-03T09:38:08.720Z] [INFO] upsertProfileData - Created passport
+[2025-03-03T09:38:08.720Z] [INFO] upsertProfileData - Profile upsert complete
+[2025-03-03T09:42:01.385Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:42:01.417Z] [INFO] upsertProfileData - Created passport
+[2025-03-03T09:42:20.029Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:42:20.054Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T09:42:20.060Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T09:42:20.068Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T09:42:20.077Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:20.089Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:20.095Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:20.112Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:20.107Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:37.619Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:42:37.633Z] [ERROR] upsertProfileData - Error during profile upsert
+[2025-03-03T09:42:46.653Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:42:46.668Z] [INFO] upsertProfileData - Created new personal details
+[2025-03-03T09:42:46.686Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T09:42:46.699Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T09:42:46.712Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T09:42:46.725Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:46.752Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:46.747Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:46.737Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:42:46.758Z] [INFO] upsertProfileData - Created test
+[2025-03-03T09:44:44.163Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T09:44:44.184Z] [INFO] upsertProfileData - Updated qualification
+[2025-03-03T09:44:44.193Z] [INFO] upsertProfileData - Updated qualification
+[2025-03-03T09:44:44.207Z] [INFO] upsertProfileData - Updated qualification
+[2025-03-03T10:29:15.061Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T10:29:27.646Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T10:29:27.817Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T15:13:52.956Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:15:03.127Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:15:39.183Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:16:16.008Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:17:31.076Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:17:31.099Z] [INFO] Created new pending user: asmehra0628@gmail.com
+[2025-03-03T15:18:20.251Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:18:31.968Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:18:32.096Z] [INFO] User registration completed: asmehra0628@gmail.com
+[2025-03-03T15:18:37.202Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:19:38.378Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:35:02.514Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:35:02.550Z] [INFO] Created new pending user: asmehra0628@gmail.com
+[2025-03-03T15:35:21.611Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:35:25.113Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:35:25.240Z] [INFO] User registration completed: asmehra0628@gmail.com
+[2025-03-03T15:35:45.222Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-03T15:36:00.528Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T15:36:00.529Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T15:38:26.502Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-03T15:38:26.534Z] [INFO] upsertProfileData - Created new personal details
+[2025-03-03T15:38:26.544Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T15:38:26.552Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T15:38:26.548Z] [INFO] upsertProfileData - Created qualification
+[2025-03-03T15:38:26.560Z] [INFO] upsertProfileData - Created test
+[2025-03-03T15:38:26.573Z] [INFO] upsertProfileData - Created test
+[2025-03-03T15:38:26.578Z] [INFO] upsertProfileData - Created test
+[2025-03-03T15:38:26.582Z] [INFO] upsertProfileData - Created test
+[2025-03-03T15:38:26.567Z] [INFO] upsertProfileData - Created test
+[2025-03-03T15:38:26.590Z] [INFO] upsertProfileData - Created passport
+[2025-03-03T15:38:35.191Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T15:38:35.192Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T15:38:51.968Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T15:38:52.025Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T15:39:49.871Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T15:39:49.975Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T15:39:49.984Z] [INFO] deleteSingleEntity - Deleted entity successfully
+[2025-03-03T15:39:53.667Z] [INFO] findUserById - Finding user by ID
+[2025-03-03T15:39:53.670Z] [INFO] deleteSingleEntity - Deleting single entity
+[2025-03-03T15:39:53.674Z] [INFO] deleteSingleEntity - Deleted entity successfully
+[2025-03-03T15:40:25.913Z] [INFO] getProfileByUserId - Retrieving profile by user ID
+[2025-03-03T15:40:25.966Z] [INFO] getProfileByUserId - Profile retrieved

@@ -1,5 +1,9 @@
+// inbuilt import
 import { Router } from "express";
+
+// custom import
 import userRouter from "./src/features/router/students/users.router.js";
+import profileRouter from "./src/features/router/students/profile.router.js";
 
 const router = Router();
 
@@ -14,7 +18,8 @@ router.get('/', (req, res) => {
     });
 })
 
-router.use('/users', userRouter);
+router.use('/v1/users', userRouter);
+router.use('/v1/profile', profileRouter)
 
 // middleware to handle route not found
 router.use((req, res) => {

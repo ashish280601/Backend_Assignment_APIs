@@ -1,12 +1,14 @@
 import "./env.js";
 // inbuilt import
-import express from "express";
+import express from "express"; 
 import cors from "cors";
 
 // custom import
 import {connectDB, closeDB} from "./src/config/db.js";
 import router from "./routes.js";
+import setupAssociations from "./src/models/students_portal/student_profile_details/association.js";
 
+setupAssociations();
 
 const app = express()
 
@@ -18,8 +20,8 @@ var corsOptions = {
 };
 
 app.use(cors());
-app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use('/api', router)
 
 app.listen(port, async () => {

@@ -1,3 +1,250 @@
 [2025-03-01T18:26:39.287Z] [INFO] New OTP sent to new user: asmehra0628@gmail.com
 [2025-03-01T18:27:20.928Z] [INFO] OTP successfully verified for: asmehra0628@gmail.com
 [2025-03-01T18:27:29.546Z] [INFO] User registration completed successfully for: asmehra0628@gmail.com
+[2025-03-01T18:41:54.455Z] [INFO] New OTP sent to new user: asmehra0628@gmail.com
+[2025-03-01T18:42:16.187Z] [INFO] OTP successfully verified for: asmehra0628@gmail.com
+[2025-03-01T18:42:37.900Z] [INFO] User registration completed successfully for: asmehra0628@gmail.com
+[2025-03-02T15:00:39.770Z] [ERROR] Error in registerByEmail for email shubhamtopwal20199@gmail.com: Validation error
+[2025-03-02T15:00:45.900Z] [INFO] New OTP sent to new user: shubhamtopwal20199@gmail.com
+[2025-03-02T15:02:11.925Z] [INFO] OTP resent to existing pending user: shubhamtopwal20199@gmail.com
+[2025-03-02T15:03:29.069Z] [INFO] New OTP sent to new user: anooptopwal8@gmail.com
+[2025-03-02T19:01:41.539Z] [INFO] upsertProfile
+[2025-03-02T19:01:41.544Z] [INFO] upsertProfile
+[2025-03-02T19:02:01.016Z] [INFO] upsertProfile
+[2025-03-02T19:02:01.018Z] [INFO] upsertProfile
+[2025-03-02T19:02:21.999Z] [INFO] upsertProfile
+[2025-03-02T19:02:22.000Z] [INFO] upsertProfile
+[2025-03-02T19:03:38.278Z] [INFO] upsertProfile
+[2025-03-02T19:03:38.281Z] [INFO] upsertProfile
+[2025-03-02T19:09:12.988Z] [INFO] upsertProfile
+[2025-03-02T19:09:12.994Z] [INFO] upsertProfile
+[2025-03-02T19:11:03.205Z] [INFO] upsertProfile
+[2025-03-02T19:11:03.207Z] [INFO] upsertProfile
+[2025-03-02T19:11:26.305Z] [INFO] upsertProfile
+[2025-03-02T19:11:26.308Z] [INFO] upsertProfile
+[2025-03-02T19:12:33.496Z] [INFO] upsertProfile
+[2025-03-02T19:12:33.525Z] [INFO] upsertProfile
+[2025-03-02T19:20:40.611Z] [INFO] upsertProfile
+[2025-03-02T19:20:40.767Z] [INFO] upsertProfile
+[2025-03-02T19:30:20.235Z] [INFO] upsertProfile
+[2025-03-02T19:30:20.239Z] [INFO] upsertProfile
+[2025-03-02T19:31:55.103Z] [INFO] getProfile
+[2025-03-02T19:31:55.110Z] [ERROR] getProfile
+[2025-03-02T19:34:19.513Z] [INFO] upsertProfile
+[2025-03-02T19:34:19.516Z] [INFO] upsertProfile
+[2025-03-02T19:36:57.366Z] [INFO] upsertProfile
+[2025-03-02T19:36:57.372Z] [INFO] upsertProfile
+[2025-03-02T19:38:01.427Z] [INFO] upsertProfile
+[2025-03-02T19:38:01.431Z] [INFO] upsertProfile
+[2025-03-02T19:43:25.778Z] [INFO] upsertProfile
+[2025-03-02T19:43:25.807Z] [ERROR] upsertProfile
+[2025-03-02T19:43:34.938Z] [INFO] upsertProfile
+[2025-03-02T19:43:34.946Z] [ERROR] upsertProfile
+[2025-03-02T19:58:30.261Z] [INFO] upsertProfile
+[2025-03-02T19:58:30.305Z] [ERROR] upsertProfile
+[2025-03-02T19:58:48.552Z] [INFO] upsertProfile
+[2025-03-02T19:58:48.563Z] [ERROR] upsertProfile
+[2025-03-02T20:01:58.072Z] [INFO] upsertProfile
+[2025-03-02T20:01:58.109Z] [ERROR] upsertProfile
+[2025-03-02T20:07:51.150Z] [INFO] upsertProfile
+[2025-03-02T20:07:51.149Z] [INFO] upsertProfile
+[2025-03-02T20:07:51.190Z] [ERROR] upsertProfile
+[2025-03-02T20:07:55.621Z] [INFO] upsertProfile
+[2025-03-02T20:07:55.621Z] [INFO] upsertProfile
+[2025-03-02T20:07:55.629Z] [ERROR] upsertProfile
+[2025-03-03T05:52:46.282Z] [INFO] upsertProfile
+[2025-03-03T05:52:46.281Z] [INFO] upsertProfile
+[2025-03-03T05:52:46.313Z] [ERROR] upsertProfile
+[2025-03-03T05:54:19.291Z] [INFO] upsertProfile
+[2025-03-03T05:54:19.290Z] [INFO] upsertProfile
+[2025-03-03T05:54:19.335Z] [ERROR] upsertProfile
+[2025-03-03T05:54:32.493Z] [INFO] upsertProfile
+[2025-03-03T05:54:32.493Z] [INFO] upsertProfile
+[2025-03-03T05:54:32.506Z] [ERROR] upsertProfile
+[2025-03-03T05:55:16.052Z] [INFO] upsertProfile
+[2025-03-03T05:55:16.051Z] [INFO] upsertProfile
+[2025-03-03T05:55:16.091Z] [ERROR] upsertProfile
+[2025-03-03T05:55:31.193Z] [INFO] upsertProfile
+[2025-03-03T05:55:31.194Z] [INFO] upsertProfile
+[2025-03-03T05:55:31.229Z] [ERROR] upsertProfile
+[2025-03-03T05:57:28.153Z] [INFO] upsertProfile
+[2025-03-03T05:57:28.153Z] [INFO] upsertProfile
+[2025-03-03T05:57:28.171Z] [ERROR] upsertProfile
+[2025-03-03T05:59:18.016Z] [INFO] upsertProfile
+[2025-03-03T05:59:18.017Z] [INFO] upsertProfile
+[2025-03-03T05:59:18.043Z] [ERROR] upsertProfile
+[2025-03-03T06:00:07.392Z] [INFO] upsertProfile
+[2025-03-03T06:00:07.392Z] [INFO] upsertProfile
+[2025-03-03T06:00:07.460Z] [INFO] upsertProfile
+[2025-03-03T06:46:11.937Z] [INFO] upsertProfile
+[2025-03-03T06:46:11.934Z] [INFO] upsertProfile
+[2025-03-03T06:46:12.011Z] [ERROR] upsertProfile
+[2025-03-03T06:53:23.659Z] [INFO] upsertProfile
+[2025-03-03T06:53:23.659Z] [INFO] upsertProfile
+[2025-03-03T06:53:23.757Z] [INFO] upsertProfile
+[2025-03-03T06:55:12.865Z] [INFO] getProfile
+[2025-03-03T06:55:12.876Z] [ERROR] getProfile
+[2025-03-03T06:55:28.419Z] [ERROR] getProfile
+[2025-03-03T06:55:28.418Z] [INFO] getProfile
+[2025-03-03T06:59:47.486Z] [INFO] getProfile
+[2025-03-03T06:59:47.490Z] [ERROR] getProfile
+[2025-03-03T07:00:03.107Z] [INFO] getProfile
+[2025-03-03T07:00:03.114Z] [ERROR] getProfile
+[2025-03-03T07:46:23.733Z] [INFO] getProfile
+[2025-03-03T07:46:23.739Z] [ERROR] getProfile
+[2025-03-03T07:46:42.114Z] [INFO] getProfile
+[2025-03-03T07:46:42.120Z] [ERROR] getProfile
+[2025-03-03T07:59:29.537Z] [INFO] getProfile
+[2025-03-03T07:59:29.546Z] [ERROR] getProfile
+[2025-03-03T07:59:41.221Z] [INFO] getProfile
+[2025-03-03T07:59:41.224Z] [ERROR] getProfile
+[2025-03-03T08:04:56.124Z] [INFO] getProfile
+[2025-03-03T08:04:56.132Z] [ERROR] getProfile
+[2025-03-03T08:07:54.154Z] [INFO] getProfile
+[2025-03-03T08:07:54.235Z] [INFO] getProfile
+[2025-03-03T08:11:34.805Z] [INFO] getProfile
+[2025-03-03T08:11:34.874Z] [INFO] getProfile
+[2025-03-03T08:17:15.695Z] [INFO] getProfile
+[2025-03-03T08:17:15.846Z] [INFO] getProfile
+[2025-03-03T08:18:19.157Z] [INFO] deleteProfile
+[2025-03-03T08:18:19.260Z] [ERROR] deleteProfile
+[2025-03-03T08:18:54.070Z] [INFO] deleteProfile
+[2025-03-03T08:18:54.175Z] [ERROR] deleteProfile
+[2025-03-03T08:19:00.519Z] [INFO] deleteProfile
+[2025-03-03T08:19:00.537Z] [INFO] deleteProfile
+[2025-03-03T08:19:42.539Z] [INFO] deleteProfile
+[2025-03-03T08:19:42.648Z] [INFO] deleteProfile
+[2025-03-03T08:20:20.753Z] [INFO] getProfile
+[2025-03-03T08:20:20.852Z] [INFO] getProfile
+[2025-03-03T08:20:44.528Z] [INFO] upsertProfile
+[2025-03-03T08:20:44.528Z] [INFO] upsertProfile
+[2025-03-03T08:20:44.629Z] [INFO] upsertProfile
+[2025-03-03T08:26:31.746Z] [INFO] upsertProfile
+[2025-03-03T08:26:31.746Z] [INFO] upsertProfile
+[2025-03-03T08:26:31.824Z] [INFO] upsertProfile
+[2025-03-03T08:27:32.808Z] [INFO] deleteProfile
+[2025-03-03T08:27:32.948Z] [INFO] deleteProfile
+[2025-03-03T08:27:38.218Z] [INFO] upsertProfile
+[2025-03-03T08:27:38.218Z] [INFO] upsertProfile
+[2025-03-03T08:27:38.267Z] [INFO] upsertProfile
+[2025-03-03T08:27:52.218Z] [INFO] upsertProfile
+[2025-03-03T08:27:52.218Z] [INFO] upsertProfile
+[2025-03-03T08:27:52.257Z] [INFO] upsertProfile
+[2025-03-03T08:28:44.682Z] [INFO] upsertProfile
+[2025-03-03T08:28:44.682Z] [INFO] upsertProfile
+[2025-03-03T08:28:44.718Z] [INFO] upsertProfile
+[2025-03-03T08:29:37.294Z] [INFO] upsertProfile
+[2025-03-03T08:29:37.294Z] [INFO] upsertProfile
+[2025-03-03T08:29:37.329Z] [INFO] upsertProfile
+[2025-03-03T08:30:00.726Z] [INFO] upsertProfile
+[2025-03-03T08:30:00.726Z] [INFO] upsertProfile
+[2025-03-03T08:30:00.744Z] [ERROR] upsertProfile
+[2025-03-03T08:30:06.274Z] [INFO] upsertProfile
+[2025-03-03T08:30:06.274Z] [INFO] upsertProfile
+[2025-03-03T08:30:06.287Z] [INFO] upsertProfile
+[2025-03-03T08:30:48.535Z] [INFO] upsertProfile
+[2025-03-03T08:30:48.535Z] [INFO] upsertProfile
+[2025-03-03T08:30:48.570Z] [INFO] upsertProfile
+[2025-03-03T08:32:38.959Z] [INFO] getProfile
+[2025-03-03T08:32:39.102Z] [INFO] getProfile
+[2025-03-03T08:33:14.322Z] [INFO] deleteProfile
+[2025-03-03T08:33:14.415Z] [ERROR] deleteProfile
+[2025-03-03T08:33:27.068Z] [INFO] deleteProfile
+[2025-03-03T08:33:27.178Z] [INFO] deleteProfile
+[2025-03-03T08:34:41.839Z] [INFO] upsertProfile
+[2025-03-03T08:34:41.840Z] [INFO] upsertProfile
+[2025-03-03T08:34:41.932Z] [INFO] upsertProfile
+[2025-03-03T08:35:34.728Z] [INFO] upsertProfile
+[2025-03-03T08:35:34.728Z] [INFO] upsertProfile
+[2025-03-03T08:35:34.770Z] [INFO] upsertProfile
+[2025-03-03T08:50:02.343Z] [INFO] deleteProfile
+[2025-03-03T08:50:02.489Z] [INFO] deleteProfile
+[2025-03-03T08:50:26.189Z] [INFO] deleteProfile
+[2025-03-03T08:50:26.289Z] [INFO] deleteProfile
+[2025-03-03T08:50:37.131Z] [INFO] deleteProfile
+[2025-03-03T08:50:37.274Z] [INFO] deleteProfile
+[2025-03-03T08:51:30.570Z] [INFO] upsertProfile
+[2025-03-03T08:51:30.640Z] [INFO] upsertProfile
+[2025-03-03T08:51:51.257Z] [INFO] upsertProfile
+[2025-03-03T08:51:51.275Z] [INFO] upsertProfile
+[2025-03-03T08:52:19.812Z] [INFO] upsertProfile
+[2025-03-03T08:52:19.872Z] [INFO] upsertProfile
+[2025-03-03T08:54:56.118Z] [INFO] upsertProfile
+[2025-03-03T08:54:56.130Z] [ERROR] upsertProfile
+[2025-03-03T09:04:04.738Z] [INFO] upsertProfile
+[2025-03-03T09:04:04.783Z] [ERROR] upsertProfile
+[2025-03-03T09:04:34.917Z] [INFO] upsertProfile
+[2025-03-03T09:04:34.930Z] [ERROR] upsertProfile
+[2025-03-03T09:07:19.019Z] [INFO] upsertProfile
+[2025-03-03T09:07:19.086Z] [ERROR] upsertProfile
+[2025-03-03T09:07:29.405Z] [INFO] upsertProfile
+[2025-03-03T09:07:29.436Z] [ERROR] upsertProfile
+[2025-03-03T09:07:35.966Z] [INFO] upsertProfile
+[2025-03-03T09:07:35.974Z] [ERROR] upsertProfile
+[2025-03-03T09:11:28.032Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:11:28.084Z] [ERROR] upsertProfile - Error saving profile
+[2025-03-03T09:12:14.942Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:12:14.977Z] [ERROR] upsertProfile - Error saving profile
+[2025-03-03T09:15:12.277Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:15:12.300Z] [ERROR] upsertProfile - Error saving profile
+[2025-03-03T09:15:21.704Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:15:21.711Z] [ERROR] upsertProfile - Error saving profile
+[2025-03-03T09:16:28.959Z] [INFO] deleteProfile
+[2025-03-03T09:16:29.097Z] [INFO] deleteProfile
+[2025-03-03T09:16:39.120Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:17:23.978Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:19:09.896Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:19:09.908Z] [ERROR] upsertProfile - Error saving profile
+[2025-03-03T09:19:30.051Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:19:30.054Z] [ERROR] upsertProfile - Error saving profile
+[2025-03-03T09:20:15.415Z] [INFO] deleteProfile
+[2025-03-03T09:20:15.682Z] [INFO] deleteProfile
+[2025-03-03T09:20:33.076Z] [INFO] upsertProfile - Upsert profile request received
+[2025-03-03T09:20:33.080Z] [ERROR] upsertProfile - Error saving profile
+[2025-03-03T09:20:59.964Z] [INFO] upsertProfile
+[2025-03-03T09:20:59.973Z] [ERROR] upsertProfile
+[2025-03-03T09:21:04.870Z] [INFO] upsertProfile
+[2025-03-03T09:21:04.873Z] [ERROR] upsertProfile
+[2025-03-03T09:21:36.610Z] [INFO] upsertProfile
+[2025-03-03T09:21:36.619Z] [ERROR] upsertProfile
+[2025-03-03T09:28:34.196Z] [INFO] upsertProfile
+[2025-03-03T09:28:34.205Z] [ERROR] upsertProfile
+[2025-03-03T09:36:24.047Z] [INFO] upsertProfile
+[2025-03-03T09:36:24.068Z] [ERROR] upsertProfile
+[2025-03-03T09:37:26.606Z] [INFO] upsertProfile
+[2025-03-03T09:37:26.613Z] [ERROR] upsertProfile
+[2025-03-03T09:37:42.788Z] [INFO] upsertProfile
+[2025-03-03T09:37:42.795Z] [ERROR] upsertProfile
+[2025-03-03T09:38:08.679Z] [INFO] upsertProfile
+[2025-03-03T09:38:08.723Z] [ERROR] upsertProfile
+[2025-03-03T09:42:01.384Z] [INFO] upsertProfile
+[2025-03-03T09:42:20.029Z] [INFO] upsertProfile
+[2025-03-03T09:42:37.619Z] [INFO] upsertProfile
+[2025-03-03T09:42:37.636Z] [ERROR] upsertProfile
+[2025-03-03T09:42:46.652Z] [INFO] upsertProfile
+[2025-03-03T09:44:44.163Z] [INFO] upsertProfile
+[2025-03-03T10:29:27.645Z] [INFO] getProfile
+[2025-03-03T10:29:27.817Z] [INFO] getProfile
+[2025-03-03T15:17:35.148Z] [INFO] New OTP sent to new user: asmehra0628@gmail.com
+[2025-03-03T15:18:20.251Z] [INFO] OTP successfully verified for: asmehra0628@gmail.com
+[2025-03-03T15:18:32.096Z] [INFO] User registration completed successfully for: asmehra0628@gmail.com
+[2025-03-03T15:35:07.233Z] [INFO] New OTP sent to new user: asmehra0628@gmail.com
+[2025-03-03T15:35:21.611Z] [INFO] OTP successfully verified for: asmehra0628@gmail.com
+[2025-03-03T15:35:25.240Z] [INFO] User registration completed successfully for: asmehra0628@gmail.com
+[2025-03-03T15:36:00.528Z] [INFO] getProfile
+[2025-03-03T15:36:00.529Z] [INFO] getProfile
+[2025-03-03T15:36:39.565Z] [ERROR] upsertProfile
+[2025-03-03T15:36:57.644Z] [ERROR] upsertProfile
+[2025-03-03T15:37:06.421Z] [ERROR] upsertProfile
+[2025-03-03T15:37:25.892Z] [ERROR] upsertProfile
+[2025-03-03T15:38:26.501Z] [INFO] upsertProfile
+[2025-03-03T15:38:35.191Z] [INFO] getProfile
+[2025-03-03T15:38:35.192Z] [INFO] getProfile
+[2025-03-03T15:38:51.968Z] [INFO] getProfile
+[2025-03-03T15:38:52.026Z] [INFO] getProfile
+[2025-03-03T15:39:49.870Z] [INFO] deleteProfile
+[2025-03-03T15:39:49.988Z] [INFO] deleteProfile
+[2025-03-03T15:39:53.667Z] [INFO] deleteProfile
+[2025-03-03T15:39:53.676Z] [INFO] deleteProfile
+[2025-03-03T15:40:25.913Z] [INFO] getProfile
+[2025-03-03T15:40:25.966Z] [INFO] getProfile
