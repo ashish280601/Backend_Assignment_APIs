@@ -1,5 +1,5 @@
 import { controllerLogger } from "../../../utils/logger.js";
-import sendResponse from "../../../utils/logs/responseHelper.js";
+import sendResponse from "../../../utils/responseHelper.js";
 import CourseRepository from "../../repository/courses/course.repository.js";
 
 export default class CourseController {

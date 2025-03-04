@@ -1,5 +1,5 @@
 import InterestedListRepository from '../../repository/students/interestedList.repository.js';
-import sendResponse from '../../../utils/logs/responseHelper.js';
+import sendResponse from '../../../utils/responseHelper.js';
 import { controllerLogger } from '../../../utils/logger.js';
 
 export default class InterestedListController {
