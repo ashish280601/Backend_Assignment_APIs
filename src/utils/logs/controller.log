@@ -341,3 +341,27 @@
 [2025-03-04T10:55:10.169Z] [INFO] Fetching filtered colleges and courses
 [2025-03-04T10:55:17.014Z] [INFO] Fetching filtered colleges and courses
 [2025-03-04T16:16:57.852Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T17:01:44.874Z] [INFO] Received request to fetch all colleges
+[2025-03-04T17:01:44.895Z] [INFO] Fetched 2 colleges successfully
+[2025-03-04T17:02:06.380Z] [ERROR] Failed to add to interested list for student undefined
+[2025-03-04T17:02:46.432Z] [ERROR] Failed to add to interested list for student undefined
+[2025-03-04T17:03:14.818Z] [ERROR] Failed to add to interested list for student undefined
+[2025-03-04T17:03:17.958Z] [ERROR] Failed to add to interested list for student undefined
+[2025-03-04T17:03:37.711Z] [ERROR] Failed to add to interested list for student undefined
+[2025-03-04T17:06:27.746Z] [ERROR] Failed to add to interested list for student undefined
+[2025-03-04T17:06:32.339Z] [ERROR] Failed to add to interested list for student undefined
+[2025-03-04T17:07:48.500Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:10:39.591Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:18:27.522Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:19:25.606Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:19:44.377Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:20:46.803Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:24:58.847Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:26:08.262Z] [ERROR] Failed to add to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:32:54.420Z] [INFO] Added to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:33:53.913Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T17:34:40.009Z] [INFO] Added to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:36:31.460Z] [ERROR] Failed to fetch interested list for student undefined
+[2025-03-04T17:37:12.690Z] [INFO] Fetched interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:40:13.005Z] [INFO] Removed item from interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:40:28.647Z] [INFO] Fetched interested list for student a34b04a2-f807-44db-8000-5dd3dd262696

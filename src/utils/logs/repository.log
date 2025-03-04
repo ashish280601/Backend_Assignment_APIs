@@ -531,3 +531,49 @@
 [2025-03-04T16:16:39.257Z] [INFO] Fetched user by email: asmehra0628@gmail.com
 [2025-03-04T16:16:57.853Z] [INFO] Applying filters for colleges and courses
 [2025-03-04T16:16:57.992Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T17:01:44.895Z] [INFO] Fetched all colleges successfully.
+[2025-03-04T17:02:06.375Z] [INFO] Adding to interested list for student undefined
+[2025-03-04T17:02:06.380Z] [ERROR] Error adding to interested list for student undefined
+[2025-03-04T17:02:46.427Z] [INFO] Adding to interested list for student undefined
+[2025-03-04T17:02:46.432Z] [ERROR] Error adding to interested list for student undefined
+[2025-03-04T17:03:14.810Z] [INFO] Adding to interested list for student undefined
+[2025-03-04T17:03:14.818Z] [ERROR] Error adding to interested list for student undefined
+[2025-03-04T17:03:17.956Z] [INFO] Adding to interested list for student undefined
+[2025-03-04T17:03:17.958Z] [ERROR] Error adding to interested list for student undefined
+[2025-03-04T17:03:37.669Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:03:37.711Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:06:27.633Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:06:27.745Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:06:32.332Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:06:32.339Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:07:48.472Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:07:48.499Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:10:39.569Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:10:39.590Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:18:12.534Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-04T17:18:27.376Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:18:27.522Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:19:25.482Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:19:25.604Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:19:44.354Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:19:44.374Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:20:46.774Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:20:46.801Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:24:58.816Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:24:58.845Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:26:08.152Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:26:08.261Z] [ERROR] Error adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:32:54.389Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:32:54.420Z] [INFO] Added to interested list successfully
+[2025-03-04T17:33:53.915Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T17:33:54.111Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T17:34:39.911Z] [INFO] Adding to interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:34:40.009Z] [INFO] Added to interested list successfully
+[2025-03-04T17:36:31.455Z] [INFO] Fetching interested list for student undefined
+[2025-03-04T17:36:31.460Z] [ERROR] Error fetching interested list for student undefined
+[2025-03-04T17:37:12.659Z] [INFO] Fetching interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:37:12.690Z] [INFO] Fetched interested list successfully
+[2025-03-04T17:40:12.883Z] [INFO] Removing item from interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:40:13.004Z] [INFO] Removed item from interested list successfully
+[2025-03-04T17:40:28.405Z] [INFO] Fetching interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-04T17:40:28.647Z] [INFO] Fetched interested list successfully

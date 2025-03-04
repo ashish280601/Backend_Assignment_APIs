@@ -200,7 +200,6 @@ export default class UserController {
 
         try {
             const user = await this.userRepository.findUserByEmail(email);
-            console.log("users.....", user);
             
             if (!user) {
                 return res.status(400).json({

@@ -6,6 +6,7 @@ import userRouter from "./src/features/router/students/users.router.js";
 import profileRouter from "./src/features/router/students/profile.router.js";
 import collegeRouter from "./src/features/router/colleges/college.router.js";
 import courseRouter from "./src/features/router/courses/course.router.js";
+import interestedListRouter from "./src/features/router/students/interestedList.router.js";
 
 const router = Router();
 
@@ -24,6 +25,7 @@ router.use('/v1/users', userRouter);
 router.use('/v1/profile', profileRouter)
 router.use('/v1/college', collegeRouter)
 router.use('/v1/course', courseRouter)
+router.use('/v1/shortlist', interestedListRouter)
 
 // middleware to handle route not found
 router.use((req, res) => {
