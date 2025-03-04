@@ -40,8 +40,7 @@ const jwtAuth = async (req, res, next) => {
 
     try {
         const payload = jwt.verify(token, process.env.JWT_SECRET);
-        console.log(payload);
-        
+           
         req.user = {
             userId: payload.userId,
             email: payload.email,
@@ -64,8 +63,6 @@ const jwtAuth = async (req, res, next) => {
 
 
 const authorizeRoles = (roles = []) => {
-    console.log("Allowed roles for this route:", roles);
-
     return (req, res, next) => {
         if (!req.user) {
             return res.status(401).json({
@@ -78,9 +75,7 @@ const authorizeRoles = (roles = []) => {
             });
         }
 
-        const { role } = req.user;
-        console.log(role);
-        
+        const { role } = req.user; 
         if (!role) {
             return res.status(401).json({
                 data: {

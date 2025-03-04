@@ -248,3 +248,48 @@
 [2025-03-03T15:39:53.676Z] [INFO] deleteProfile
 [2025-03-03T15:40:25.913Z] [INFO] getProfile
 [2025-03-03T15:40:25.966Z] [INFO] getProfile
+[2025-03-03T18:20:11.124Z] [INFO] Received request to create college
+[2025-03-03T18:20:11.124Z] [WARN] Create college failed due to missing fields
+[2025-03-03T18:22:39.855Z] [WARN] Create college failed due to validation errors
+[2025-03-03T18:22:39.854Z] [INFO] Received request to create college
+[2025-03-03T18:23:40.982Z] [INFO] Received request to create college
+[2025-03-03T18:23:40.984Z] [ERROR] Error in createCollege controller: Cannot read properties of undefined (reading 'image')
+[2025-03-03T18:24:18.296Z] [INFO] Received request to create college
+[2025-03-03T18:24:18.298Z] [ERROR] Error in createCollege controller: Cannot read properties of undefined (reading 'image')
+[2025-03-03T18:33:35.094Z] [ERROR] Error in createCollege controller: "[object Object]" is not valid JSON
+[2025-03-03T18:33:35.091Z] [INFO] Received request to create college
+[2025-03-03T18:33:57.009Z] [ERROR] Error in createCollege controller: "[object Object]" is not valid JSON
+[2025-03-03T18:33:57.007Z] [INFO] Received request to create college
+[2025-03-03T18:35:29.585Z] [INFO] Received request to create college
+[2025-03-03T18:35:29.586Z] [ERROR] Error in createCollege controller: "[object Object]" is not valid JSON
+[2025-03-03T18:35:32.216Z] [INFO] Received request to create college
+[2025-03-03T18:35:32.217Z] [ERROR] Error in createCollege controller: "[object Object]" is not valid JSON
+[2025-03-03T18:41:43.448Z] [INFO] Received request to create college
+[2025-03-03T18:41:43.449Z] [ERROR] Error in createCollege controller: "[object Object]" is not valid JSON
+[2025-03-03T18:45:13.170Z] [INFO] Received request to create college
+[2025-03-03T18:45:13.206Z] [INFO] College created successfully
+[2025-03-04T05:27:19.450Z] [ERROR] Error creating college: Validation error: Validation isEmail on contactEmail failed
+[2025-03-04T05:42:14.922Z] [ERROR] Error creating college: Validation error: Validation isEmail on contactEmail failed
+[2025-03-04T05:43:47.172Z] [ERROR] Error creating college: Validation error: Validation isEmail on contactEmail failed
+[2025-03-04T05:56:58.508Z] [INFO] Received request to fetch all colleges
+[2025-03-04T05:56:58.606Z] [INFO] Fetched 3 colleges successfully
+[2025-03-04T05:58:23.379Z] [INFO] Received request to fetch college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T05:58:23.497Z] [INFO] College with ID 7ba45f09-08ae-4e62-bc2e-cef887dd96af retrieved successfully
+[2025-03-04T06:00:15.211Z] [INFO] Received request to delete college by ID: 4e832f7b-ca20-4327-80d6-7fde5e1ceb9c
+[2025-03-04T06:00:15.319Z] [INFO] College with ID 4e832f7b-ca20-4327-80d6-7fde5e1ceb9c deleted successfully
+[2025-03-04T06:00:25.829Z] [INFO] Received request to fetch all colleges
+[2025-03-04T06:00:25.925Z] [INFO] Fetched 2 colleges successfully
+[2025-03-04T06:03:52.930Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:03:53.050Z] [INFO] College with ID 7ba45f09-08ae-4e62-bc2e-cef887dd96af updated successfully
+[2025-03-04T06:06:11.287Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:06:11.445Z] [INFO] College with ID 7ba45f09-08ae-4e62-bc2e-cef887dd96af updated successfully
+[2025-03-04T06:08:56.642Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:08:56.656Z] [INFO] College with ID 7ba45f09-08ae-4e62-bc2e-cef887dd96af updated successfully
+[2025-03-04T06:13:14.339Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:13:14.349Z] [ERROR] Error in updateCollege controller: CollegeModel.findById is not a function
+[2025-03-04T06:14:13.601Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:14:13.606Z] [ERROR] Error in updateCollege controller: CollegeModel.findById is not a function
+[2025-03-04T06:14:39.224Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:14:39.242Z] [ERROR] Error in updateCollege controller: CollegeModel.findByIdAndUpdate is not a function
+[2025-03-04T06:16:23.357Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:16:23.375Z] [INFO] College with ID 7ba45f09-08ae-4e62-bc2e-cef887dd96af updated successfully

@@ -404,3 +404,33 @@
 [2025-03-03T15:39:53.674Z] [INFO] deleteSingleEntity - Deleted entity successfully
 [2025-03-03T15:40:25.913Z] [INFO] getProfileByUserId - Retrieving profile by user ID
 [2025-03-03T15:40:25.966Z] [INFO] getProfileByUserId - Profile retrieved
+[2025-03-03T18:17:01.751Z] [INFO] Fetched user by email: admin@example.com
+[2025-03-03T18:23:40.983Z] [ERROR] Error creating college: Cannot read properties of undefined (reading 'image')
+[2025-03-03T18:24:18.297Z] [ERROR] Error creating college: Cannot read properties of undefined (reading 'image')
+[2025-03-03T18:36:01.138Z] [INFO] College created with ID: d3a2d09c-6c8f-4399-9295-d28e1fd66a9d
+[2025-03-03T18:39:22.666Z] [INFO] College created with ID: db0720a7-a70b-466f-bce2-610515a6e397
+[2025-03-03T18:45:13.206Z] [INFO] College created with ID: 6c65fac1-ead8-46bb-86eb-120a0033e710
+[2025-03-03T18:49:37.302Z] [INFO] College created with ID: 9e398a87-7648-402d-bb81-79689189901f
+[2025-03-03T18:50:56.911Z] [INFO] College created with ID: 2923dd7f-caa1-428b-ae02-f7e5c6c9884a
+[2025-03-03T18:51:09.813Z] [INFO] College created with ID: ab44e1a3-0181-4861-afe4-64139e816abb
+[2025-03-03T18:59:17.813Z] [INFO] College created with ID: c7869161-82e2-4e53-9b4e-ab97147c7b61
+[2025-03-04T05:20:04.648Z] [INFO] Fetched user by email: admin@example.com
+[2025-03-04T05:27:19.449Z] [ERROR] Error creating college: Validation error: Validation isEmail on contactEmail failed
+[2025-03-04T05:42:14.920Z] [ERROR] Error creating college: Validation error: Validation isEmail on contactEmail failed
+[2025-03-04T05:43:47.170Z] [ERROR] Error creating college: Validation error: Validation isEmail on contactEmail failed
+[2025-03-04T05:46:44.152Z] [INFO] College created with ID: 49a3f7e5-81e9-4924-851f-6f07e37c72b4
+[2025-03-04T05:49:37.983Z] [INFO] Fetched user by email: admin@example.com
+[2025-03-04T05:51:08.995Z] [INFO] College created with ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T05:54:52.000Z] [INFO] College created with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T05:55:31.241Z] [INFO] College created with ID: 4e832f7b-ca20-4327-80d6-7fde5e1ceb9c
+[2025-03-04T05:56:58.606Z] [INFO] Fetched all colleges successfully.
+[2025-03-04T05:58:23.497Z] [INFO] Fetched college successfully with id: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:00:15.319Z] [INFO] College deleted successfully with id: 4e832f7b-ca20-4327-80d6-7fde5e1ceb9c
+[2025-03-04T06:00:25.924Z] [INFO] Fetched all colleges successfully.
+[2025-03-04T06:03:53.050Z] [INFO] College updated with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:06:11.445Z] [INFO] College updated with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:08:56.656Z] [INFO] College updated with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T06:13:14.341Z] [ERROR] Error updating college: CollegeModel.findById is not a function
+[2025-03-04T06:14:13.603Z] [ERROR] Error updating college: CollegeModel.findById is not a function
+[2025-03-04T06:14:39.240Z] [ERROR] Error updating college: CollegeModel.findByIdAndUpdate is not a function
+[2025-03-04T06:16:23.375Z] [INFO] College updated with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af

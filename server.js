@@ -7,6 +7,7 @@ import cors from "cors";
 import {connectDB, closeDB} from "./src/config/db.js";
 import router from "./routes.js";
 import setupAssociations from "./src/models/students_portal/student_profile_details/association.js";
+import initializeAdmin from "./src/seeders/initializeAdmin.js";
 
 setupAssociations();
 
@@ -27,7 +28,8 @@ app.use('/api', router)
 app.listen(port, async () => {
     try {
         console.log(`Server is running at port ${port}`);
-      await connectDB(); 
+      await connectDB();
+      await initializeAdmin(); 
     } catch (error) {
         console.error("Error while connecting to database", error);
     }
