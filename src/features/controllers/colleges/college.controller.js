@@ -1,21 +1,10 @@
 import CollegeRepository from "../../repository/college.repository.js";
 import { controllerLogger } from "../../../utils/logger.js";
+import sendResponse from "../../../utils/logs/responseHelper.js";
 
 export default class CollegeController {
     constructor() {
         this.collegeRepository = new CollegeRepository();
-    }
-
-    // Helper for consistent response structure
-    sendResponse(res, statusCode, message, status, response = null) {
-        return res.status(statusCode).json({
-            data: {
-                message,
-                code: statusCode,
-                status,
-                response
-            }
-        });
     }
 
     async createCollege(req, res) {
@@ -75,17 +64,17 @@ export default class CollegeController {
             };
     
             if (!name || !contactEmail || !contactPhone || !address || !establishedYear || !applicationFee || !eligibilityCriteria) {
-                return this.sendResponse(res, 400, "Missing required fields", false);
+                return sendResponse(res, 400, "Missing required fields", false);
             }
     
             const college = await this.collegeRepository.createCollege(collegeData, req.files || {});
     
-            return this.sendResponse(res, 201, "College created successfully.", true, college);
+            return sendResponse(res, 201, "College created successfully.", true, college);
         } catch (error) {
             console.error("Error creating college:", error.message);
             
             controllerLogger.error(`Error creating college: ${error.message}`);
-            return this.sendResponse(res, 500, "Failed to create college.", false);
+            return sendResponse(res, 500, "Failed to create college.", false);
         }
     }
     
@@ -98,18 +87,18 @@ export default class CollegeController {
 
             if (!colleges || colleges.length === 0) {
                 controllerLogger.warn("No colleges found");
-                return this.sendResponse(res, 404, "No colleges found.", false);
+                return sendResponse(res, 404, "No colleges found.", false);
             }
 
             controllerLogger.info(`Fetched ${colleges.length} colleges successfully`);
 
-            return this.sendResponse(res, 200, "Colleges retrieved successfully.", true, colleges);
+            return sendResponse(res, 200, "Colleges retrieved successfully.", true, colleges);
 
         } catch (error) {
             console.error("Error...............", error.message);
             
             controllerLogger.error(`Error in getAllColleges controller: ${error.message}`);
-            return this.sendResponse(res, 500, "Failed to fetch colleges.", false);
+            return sendResponse(res, 500, "Failed to fetch colleges.", false);
         }
     }
 
@@ -121,23 +110,23 @@ export default class CollegeController {
 
             if (!id) {
                 controllerLogger.warn("Fetch college by ID failed due to missing ID");
-                return this.sendResponse(res, 400, "College ID is required.", false);
+                return sendResponse(res, 400, "College ID is required.", false);
             }
 
             const college = await this.collegeRepository.getCollegeById(id);
 
             if (!college) {
                 controllerLogger.warn(`College with ID ${id} not found`);
-                return this.sendResponse(res, 404, "College not found.", false);
+                return sendResponse(res, 404, "College not found.", false);
             }
 
             controllerLogger.info(`College with ID ${id} retrieved successfully`);
 
-            return this.sendResponse(res, 200, "College retrieved successfully.", true, college);
+            return sendResponse(res, 200, "College retrieved successfully.", true, college);
 
         } catch (error) {
             controllerLogger.error(`Error in getCollegeById controller: ${error.message}`);
-            return this.sendResponse(res, 500, "Failed to fetch college.", false);
+            return sendResponse(res, 500, "Failed to fetch college.", false);
         }
     }
 
@@ -150,31 +139,31 @@ export default class CollegeController {
     
             if (!id) {
                 controllerLogger.warn("Update college failed due to missing ID");
-                return this.sendResponse(res, 400, "College ID is required.", false);
+                return sendResponse(res, 400, "College ID is required.", false);
             }
     
             // If no update data or files provided, warn and return
             if (Object.keys(updateData).length === 0 && (!req.files || Object.keys(req.files).length === 0)) {
                 controllerLogger.warn("Update college failed due to empty update data and no files");
-                return this.sendResponse(res, 400, "No data or files provided for update.", false);
+                return sendResponse(res, 400, "No data or files provided for update.", false);
             }
     
             const college = await this.collegeRepository.updateCollege(id, updateData, req.files);
     
             if (!college) {
                 controllerLogger.warn(`College with ID ${id} not found for update`);
-                return this.sendResponse(res, 404, "College not found.", false);
+                return sendResponse(res, 404, "College not found.", false);
             }
     
             controllerLogger.info(`College with ID ${id} updated successfully`, { updatedCollege: college });
     
-            return this.sendResponse(res, 200, "College updated successfully.", true, college);
+            return sendResponse(res, 200, "College updated successfully.", true, college);
     
         } catch (error) {
             console.error("Error in updateCollege controller", error.message);
             
             controllerLogger.error(`Error in updateCollege controller: ${error.message}`, { error });
-            return this.sendResponse(res, 500, "Failed to update college.", false);
+            return sendResponse(res, 500, "Failed to update college.", false);
         }
     }
 
@@ -186,23 +175,23 @@ export default class CollegeController {
 
             if (!id) {
                 controllerLogger.warn("Delete college failed due to missing ID");
-                return this.sendResponse(res, 400, "College ID is required.", false);
+                return sendResponse(res, 400, "College ID is required.", false);
             }
 
             const isDeleted = await this.collegeRepository.deleteCollege(id);
 
             if (!isDeleted) {
                 controllerLogger.warn(`College with ID ${id} not found for deletion`);
-                return this.sendResponse(res, 404, "College not found.", false);
+                return sendResponse(res, 404, "College not found.", false);
             }
 
             controllerLogger.info(`College with ID ${id} deleted successfully`);
 
-            return this.sendResponse(res, 200, "College deleted successfully.", true);
+            return sendResponse(res, 200, "College deleted successfully.", true);
 
         } catch (error) {
             controllerLogger.error(`Error in deleteCollege controller: ${error.message}`);
-            return this.sendResponse(res, 500, "Failed to delete college.", false);
+            return sendResponse(res, 500, "Failed to delete college.", false);
         }
     }
 }

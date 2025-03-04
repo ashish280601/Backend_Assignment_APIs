@@ -293,3 +293,27 @@
 [2025-03-04T06:14:39.242Z] [ERROR] Error in updateCollege controller: CollegeModel.findByIdAndUpdate is not a function
 [2025-03-04T06:16:23.357Z] [INFO] Received request to update college by ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
 [2025-03-04T06:16:23.375Z] [INFO] College with ID 7ba45f09-08ae-4e62-bc2e-cef887dd96af updated successfully
+[2025-03-04T08:20:24.815Z] [INFO] Course created successfully for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T08:22:52.979Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:23:34.642Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:24:11.785Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:24:53.109Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:25:31.889Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:26:09.605Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:27:04.773Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:28:15.482Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:28:58.616Z] [INFO] Course created successfully for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:29:17.418Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:32:48.801Z] [ERROR] Failed to create course: Validation error
+[2025-03-04T08:33:21.387Z] [INFO] Course created successfully for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T08:33:46.719Z] [INFO] Course created successfully for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T08:34:21.209Z] [INFO] Course created successfully for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:34:31.213Z] [INFO] Course created successfully for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T08:36:01.161Z] [INFO] Courses fetched successfully for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T08:37:04.754Z] [INFO] Courses fetched successfully for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:38:47.320Z] [INFO] Courses fetched successfully for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:40:26.364Z] [INFO] Course fetched successfully with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:50:32.099Z] [ERROR] Failed to fetch course: this.courseRepository.getCourseById is not a function
+[2025-03-04T08:52:46.394Z] [INFO] Course created successfully for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T08:58:55.701Z] [ERROR] Failed to delete course: this.courseRepository.deleteCourse is not a function
+[2025-03-04T09:04:51.977Z] [INFO] Fetched all courses successfully

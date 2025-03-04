@@ -11,7 +11,7 @@ export default class UserRepository {
         } catch (error) {
             console.log("Error while finding email", error.message);
             repositoryLogger.error(`Failed to fetch user by email ${email}: ${error.message}`);
-            throw  error; // Let controller handle the response
+            throw  error; 
         }
     };
 

@@ -434,3 +434,57 @@
 [2025-03-04T06:14:13.603Z] [ERROR] Error updating college: CollegeModel.findById is not a function
 [2025-03-04T06:14:39.240Z] [ERROR] Error updating college: CollegeModel.findByIdAndUpdate is not a function
 [2025-03-04T06:16:23.375Z] [INFO] College updated with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:06:30.169Z] [INFO] Fetched user by email: admin@example.com
+[2025-03-04T08:20:24.646Z] [INFO] Creating new course
+[2025-03-04T08:20:24.814Z] [INFO] Course created successfully with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-04T08:22:52.836Z] [INFO] Creating new course
+[2025-03-04T08:22:52.979Z] [ERROR] Error creating course
+[2025-03-04T08:23:34.611Z] [INFO] Creating new course
+[2025-03-04T08:23:34.639Z] [ERROR] Error creating course
+[2025-03-04T08:24:11.679Z] [INFO] Creating new course
+[2025-03-04T08:24:11.784Z] [ERROR] Error creating course
+[2025-03-04T08:24:52.965Z] [INFO] Creating new course
+[2025-03-04T08:24:53.108Z] [ERROR] Error creating course
+[2025-03-04T08:25:31.858Z] [INFO] Creating new course
+[2025-03-04T08:25:31.886Z] [ERROR] Error creating course
+[2025-03-04T08:26:09.476Z] [INFO] Creating new course
+[2025-03-04T08:26:09.604Z] [ERROR] Error creating course
+[2025-03-04T08:27:04.613Z] [INFO] Creating new course
+[2025-03-04T08:27:04.770Z] [ERROR] Error creating course
+[2025-03-04T08:28:15.374Z] [INFO] Creating new course
+[2025-03-04T08:28:15.481Z] [ERROR] Error creating course
+[2025-03-04T08:28:58.514Z] [INFO] Creating new course
+[2025-03-04T08:28:58.616Z] [INFO] Course created successfully with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-04T08:29:17.312Z] [INFO] Creating new course
+[2025-03-04T08:29:17.417Z] [ERROR] Error creating course
+[2025-03-04T08:32:48.701Z] [INFO] Creating new course
+[2025-03-04T08:32:48.800Z] [ERROR] Error creating course
+[2025-03-04T08:33:21.282Z] [INFO] Creating new course
+[2025-03-04T08:33:21.386Z] [INFO] Course created successfully with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:33:46.511Z] [INFO] Creating new course
+[2025-03-04T08:33:46.719Z] [INFO] Course created successfully with ID: 7f99a59c-c30b-4ee3-b95e-019c79d9f5c9
+[2025-03-04T08:34:21.084Z] [INFO] Creating new course
+[2025-03-04T08:34:21.209Z] [INFO] Course created successfully with ID: f4ae3e5e-b973-4bb0-bc31-97c61956819b
+[2025-03-04T08:34:31.203Z] [INFO] Creating new course
+[2025-03-04T08:34:31.213Z] [INFO] Course created successfully with ID: d104ddf8-cd08-445f-b64d-2492542ece8e
+[2025-03-04T08:36:01.031Z] [INFO] Fetching courses for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-04T08:37:04.633Z] [INFO] Fetching courses for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:38:47.307Z] [INFO] Fetching courses for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:40:26.261Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:52:04.608Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:52:11.578Z] [INFO] Fetching courses for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:52:46.253Z] [INFO] Creating new course
+[2025-03-04T08:52:46.394Z] [INFO] Course created successfully with ID: e916c400-4c07-4187-8e4a-7202fa950636
+[2025-03-04T08:56:00.716Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:57:11.131Z] [INFO] Fetching course with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:57:11.227Z] [WARN] Course not found with ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-04T08:57:34.223Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:57:34.451Z] [INFO] Course updated successfully with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:57:46.385Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:58:55.577Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:59:53.477Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T08:59:53.499Z] [INFO] Course deleted successfully with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T09:00:00.517Z] [INFO] Fetching course with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T09:00:00.522Z] [WARN] Course not found with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
+[2025-03-04T09:04:51.965Z] [INFO] Fetching all courses
+[2025-03-04T09:04:51.976Z] [INFO] Fetched 6 courses
