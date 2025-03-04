@@ -488,3 +488,46 @@
 [2025-03-04T09:00:00.522Z] [WARN] Course not found with ID: 20ed7f0b-087d-4509-aacb-32faa9308644
 [2025-03-04T09:04:51.965Z] [INFO] Fetching all courses
 [2025-03-04T09:04:51.976Z] [INFO] Fetched 6 courses
+[2025-03-04T10:38:23.471Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-04T10:38:23.504Z] [INFO] Created new pending user: asmehra0628@gmail.com
+[2025-03-04T10:38:34.200Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-04T10:38:34.345Z] [INFO] User registration completed: asmehra0628@gmail.com
+[2025-03-04T10:38:53.224Z] [INFO] Fetched user by email: admin@example.com
+[2025-03-04T10:38:59.437Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-04T10:39:44.775Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:39:44.775Z] [ERROR] Error fetching filtered colleges with courses
+[2025-03-04T10:40:43.747Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:40:43.752Z] [ERROR] Error fetching filtered colleges with courses
+[2025-03-04T10:46:28.563Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:46:28.716Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:51:17.873Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:51:17.989Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:51:22.464Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:51:22.471Z] [INFO] Fetched 1 filtered colleges with courses.
+[2025-03-04T10:52:07.193Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:52:07.316Z] [INFO] Fetched 0 filtered colleges with courses.
+[2025-03-04T10:52:13.037Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:52:13.043Z] [INFO] Fetched 0 filtered colleges with courses.
+[2025-03-04T10:52:18.157Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:52:18.164Z] [INFO] Fetched 0 filtered colleges with courses.
+[2025-03-04T10:52:25.484Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:52:25.492Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:53:44.152Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:53:44.365Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:54:03.249Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:54:03.344Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:54:16.602Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:54:16.702Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:54:40.346Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:54:40.450Z] [ERROR] Error fetching filtered colleges with courses
+[2025-03-04T10:54:50.525Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:54:50.530Z] [ERROR] Error fetching filtered colleges with courses
+[2025-03-04T10:54:54.699Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:54:54.714Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:55:10.169Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:55:10.382Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-04T10:55:17.014Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T10:55:17.019Z] [INFO] Fetched 0 filtered colleges with courses.
+[2025-03-04T16:16:39.257Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-04T16:16:57.853Z] [INFO] Applying filters for colleges and courses
+[2025-03-04T16:16:57.992Z] [INFO] Fetched 2 filtered colleges with courses.

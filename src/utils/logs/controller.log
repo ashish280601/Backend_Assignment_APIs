@@ -317,3 +317,27 @@
 [2025-03-04T08:52:46.394Z] [INFO] Course created successfully for college ID: b0e2d57a-b183-4b69-bedf-8dfa45e5d504
 [2025-03-04T08:58:55.701Z] [ERROR] Failed to delete course: this.courseRepository.deleteCourse is not a function
 [2025-03-04T09:04:51.977Z] [INFO] Fetched all courses successfully
+[2025-03-04T10:38:28.631Z] [INFO] New OTP sent to new user: asmehra0628@gmail.com
+[2025-03-04T10:38:34.345Z] [INFO] User registration completed successfully for: asmehra0628@gmail.com
+[2025-03-04T10:39:44.773Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:39:44.782Z] [ERROR] Failed to fetch colleges and courses: CourseModel is not defined
+[2025-03-04T10:40:43.746Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:40:43.753Z] [ERROR] Failed to fetch colleges and courses: Course is not associated to College_Details!
+[2025-03-04T10:46:28.561Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:51:17.873Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:51:22.464Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:52:07.193Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:52:13.037Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:52:18.157Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:52:25.484Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:53:44.152Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:54:03.249Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:54:16.602Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:54:40.345Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:54:40.450Z] [ERROR] Failed to fetch colleges and courses: invalid input value for enum "enum_courses_modeOfStudy": "Full-Time"
+[2025-03-04T10:54:50.525Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:54:50.530Z] [ERROR] Failed to fetch colleges and courses: invalid input value for enum "enum_courses_modeOfStudy": ""Full-Time""
+[2025-03-04T10:54:54.699Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:55:10.169Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T10:55:17.014Z] [INFO] Fetching filtered colleges and courses
+[2025-03-04T16:16:57.852Z] [INFO] Fetching filtered colleges and courses

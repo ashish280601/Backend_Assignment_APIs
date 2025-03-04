@@ -8,7 +8,7 @@ export default class CollegeController {
     }
 
     async createCollege(req, res) {
-        
+
         try {
             const {
                 name,
@@ -21,12 +21,12 @@ export default class CollegeController {
                 establishedYear,
                 applicationFee
             } = req.body;
-    
+
             const parseJSON = (value, fallback) => {
                 if (Array.isArray(value)) return value;
                 if (typeof value === 'object' && value !== null) return value;
                 if (typeof value !== 'string') return fallback;
-    
+
                 try {
                     return JSON.parse(value);
                 } catch (err) {
@@ -34,7 +34,7 @@ export default class CollegeController {
                     return fallback;
                 }
             };
-    
+
             // Parse nested fields
             const rankings = parseJSON(req.body.rankings, {});
             const availableIntakes = parseJSON(req.body.availableIntakes, []);  // Make sure frontend sends ["Fall","Spring"] as stringified JSON
@@ -43,7 +43,7 @@ export default class CollegeController {
             const eligibilityCriteria = parseJSON(req.body.eligibilityCriteria, {});
             const features = parseJSON(req.body.features, {});
             const mediaLibrary = parseJSON(req.body.mediaLibrary, { images: [], videos: [], documents: [] });
-    
+
             const collegeData = {
                 name,
                 history,
@@ -62,23 +62,23 @@ export default class CollegeController {
                 features,
                 mediaLibrary
             };
-    
+
             if (!name || !contactEmail || !contactPhone || !address || !establishedYear || !applicationFee || !eligibilityCriteria) {
                 return sendResponse(res, 400, "Missing required fields", false);
             }
-    
+
             const college = await this.collegeRepository.createCollege(collegeData, req.files || {});
-    
+
             return sendResponse(res, 201, "College created successfully.", true, college);
         } catch (error) {
             console.error("Error creating college:", error.message);
-            
+
             controllerLogger.error(`Error creating college: ${error.message}`);
             return sendResponse(res, 500, "Failed to create college.", false);
         }
     }
-    
-    
+
+
     async getAllColleges(req, res) {
         try {
             controllerLogger.info("Received request to fetch all colleges");
@@ -96,7 +96,7 @@ export default class CollegeController {
 
         } catch (error) {
             console.error("Error...............", error.message);
-            
+
             controllerLogger.error(`Error in getAllColleges controller: ${error.message}`);
             return sendResponse(res, 500, "Failed to fetch colleges.", false);
         }
@@ -134,34 +134,34 @@ export default class CollegeController {
         try {
             const { id } = req.params;
             const updateData = req.body;
-    
+
             controllerLogger.info(`Received request to update college by ID: ${id}`, { updateData, files: req.files });
-    
+
             if (!id) {
                 controllerLogger.warn("Update college failed due to missing ID");
                 return sendResponse(res, 400, "College ID is required.", false);
             }
-    
+
             // If no update data or files provided, warn and return
             if (Object.keys(updateData).length === 0 && (!req.files || Object.keys(req.files).length === 0)) {
                 controllerLogger.warn("Update college failed due to empty update data and no files");
                 return sendResponse(res, 400, "No data or files provided for update.", false);
             }
-    
+
             const college = await this.collegeRepository.updateCollege(id, updateData, req.files);
-    
+
             if (!college) {
                 controllerLogger.warn(`College with ID ${id} not found for update`);
                 return sendResponse(res, 404, "College not found.", false);
             }
-    
+
             controllerLogger.info(`College with ID ${id} updated successfully`, { updatedCollege: college });
-    
+
             return sendResponse(res, 200, "College updated successfully.", true, college);
-    
+
         } catch (error) {
             console.error("Error in updateCollege controller", error.message);
-            
+
             controllerLogger.error(`Error in updateCollege controller: ${error.message}`, { error });
             return sendResponse(res, 500, "Failed to update college.", false);
         }
@@ -192,6 +192,35 @@ export default class CollegeController {
         } catch (error) {
             controllerLogger.error(`Error in deleteCollege controller: ${error.message}`);
             return sendResponse(res, 500, "Failed to delete college.", false);
+        }
+    }
+
+    async exploreCoursesAndColleges(req, res) {
+        try {
+            const filters = {
+                collegeName: req.query.collegeName || null,
+                location: req.query.location || null,
+                establishedYear: req.query.establishedYear ? parseInt(req.query.establishedYear, 10) : null,
+                accreditation: req.query.accreditation || null,
+                contactEmail: req.query.contactEmail || null,
+                courseName: req.query.courseName || null,
+                modeOfStudy: req.query.modeOfStudy || null,
+                minFees: req.query.minFees ? parseInt(req.query.minFees, 10) : null,
+                maxFees: req.query.maxFees ? parseInt(req.query.maxFees, 10) : null,
+                applicationDeadlineFrom: req.query.applicationDeadlineFrom || null,
+                applicationDeadlineTo: req.query.applicationDeadlineTo || null,
+                academicQualifications: req.query.academicQualifications || null,
+                entranceTest: req.query.entranceTest || null
+            };
+
+            controllerLogger.info("Fetching filtered colleges and courses", { filters });
+
+            const result = await this.collegeRepository.getFilteredCollegesWithCourses(filters);
+
+            return sendResponse(res, 200, "Colleges with courses fetched successfully", true, result);
+        } catch (error) {
+            controllerLogger.error(`Failed to fetch colleges and courses: ${error.message}`, { error });
+            return sendResponse(res, 500, "Failed to fetch data", false, { error: error.message });
         }
     }
 }

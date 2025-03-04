@@ -231,7 +231,6 @@ export default class UserController {
                 process.env.JWT_SECRET,
                 { expiresIn: JWT_EXPIRY }
             );
-            console.log("user Role", user.role);
             
             return res.status(200).json({
                 data: {

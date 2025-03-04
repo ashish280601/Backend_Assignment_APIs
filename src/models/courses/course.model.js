@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../../config/db.js";
+import CollegeModel from "../colleges/college.model.js";
 
 const CourseModel = sequelize.define("Course", {
     id: {
@@ -66,5 +67,8 @@ const CourseModel = sequelize.define("Course", {
     timestamps: true,  
     tableName: "courses" 
 });
+
+CollegeModel.hasMany(CourseModel, { foreignKey: "collegeId", as: "courses" });
+CourseModel.belongsTo(CollegeModel, { foreignKey: "collegeId", as: "college" });
 
 export default CourseModel;

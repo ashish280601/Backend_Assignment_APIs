@@ -1,4 +1,9 @@
+// inbuilt import
+import { Op } from "sequelize";
+
+// custom import
 import CollegeModel from "../../models/colleges/college.model.js";
+import CourseModel from "../../models/courses/course.model.js";
 import { repositoryLogger } from "../../utils/logger.js";
 
 export default class CollegeRepository {
@@ -67,39 +72,39 @@ export default class CollegeRepository {
         try {
             const college = await CollegeModel.findByPk(id);
             if (!college) return null;
-    
+
             // Initialize mediaLibrary if it doesn't exist in DB
             let mediaLibrary = college.mediaLibrary || { images: [], videos: [], documents: [] };
-    
+
             // Handle logo - overwrite existing logo if new logo uploaded
             if (files.logo && files.logo.length > 0) {
                 data.logoUrl = `/uploads/logos/${files.logo[0].filename}`;
             }
-    
+
             // Handle images - append new images to existing images array
             if (files.images && files.images.length > 0) {
                 const newImages = files.images.map(file => `/uploads/images/${file.filename}`);
                 mediaLibrary.images = [...mediaLibrary.images, ...newImages];
             }
-    
+
             // Handle videos - append new videos to existing videos array
             if (files.videos && files.videos.length > 0) {
                 const newVideos = files.videos.map(file => `/uploads/videos/${file.filename}`);
                 mediaLibrary.videos = [...mediaLibrary.videos, ...newVideos];
             }
-    
+
             // Handle documents - append new documents to existing documents array
             if (files.documents && files.documents.length > 0) {
                 const newDocuments = files.documents.map(file => `/uploads/documents/${file.filename}`);
                 mediaLibrary.documents = [...mediaLibrary.documents, ...newDocuments];
             }
-    
+
             // Include updated mediaLibrary in the update data
             data.mediaLibrary = mediaLibrary;
-    
+
             // Perform the update
             await college.update(data);
-    
+
             repositoryLogger.info(`College updated with ID: ${id}`);
             return college;
         } catch (error) {
@@ -124,5 +129,88 @@ export default class CollegeRepository {
             throw error;
         }
     };
+
+    async getFilteredCollegesWithCourses(filters) {
+        try {
+            repositoryLogger.info("Applying filters for colleges and courses", { filters });
+
+            const whereCollege = {};
+            const whereCourse = {};
+
+            // College Filters
+            if (filters.collegeName) {
+                whereCollege.name = { [Op.iLike]: `%${filters.collegeName}%` };
+            }
+
+            if (filters.location) {
+                whereCollege["address.city"] = { [Op.iLike]: `%${filters.location}%` };
+            }
+
+            if (filters.establishedYear) {
+                whereCollege.establishedYear = filters.establishedYear;
+            }
+
+            if (filters.accreditation) {
+                whereCollege.accreditation = { [Op.iLike]: `%${filters.accreditation}%` };
+            }
+
+            if (filters.contactEmail) {
+                whereCollege.contactEmail = { [Op.iLike]: `%${filters.contactEmail}%` };
+            }
+
+            // Course Filters
+            if (filters.courseName) {
+                whereCourse.name = { [Op.iLike]: `%${filters.courseName}%` };
+            }
+
+            if (filters.modeOfStudy) {
+                whereCourse.modeOfStudy = filters.modeOfStudy;
+            }
+
+            if (filters.minFees !== null && filters.maxFees !== null) {
+                whereCourse.tuitionFees = { [Op.between]: [filters.minFees, filters.maxFees] };
+            } else if (filters.minFees !== null) {
+                whereCourse.tuitionFees = { [Op.gte]: filters.minFees };
+            } else if (filters.maxFees !== null) {
+                whereCourse.tuitionFees = { [Op.lte]: filters.maxFees };
+            }
+
+            if (filters.applicationDeadlineFrom && filters.applicationDeadlineTo) {
+                whereCourse.applicationDeadline = {
+                    [Op.between]: [filters.applicationDeadlineFrom, filters.applicationDeadlineTo]
+                };
+            }
+
+            if (filters.academicQualifications) {
+                whereCourse["eligibilityCriteria.academicQualifications"] = {
+                    [Op.iLike]: `%${filters.academicQualifications}%`
+                };
+            }
+
+            if (filters.entranceTest) {
+                whereCourse["eligibilityCriteria.entranceTest"] = {
+                    [Op.iLike]: `%${filters.entranceTest}%`
+                };
+            }
+
+            const colleges = await CollegeModel.findAll({
+                where: whereCollege,
+                include: [
+                    {
+                        model: CourseModel,
+                        as: "courses",
+                        where: whereCourse,
+                        required: true
+                    }
+                ]
+            });
+
+            repositoryLogger.info(`Fetched ${colleges.length} filtered colleges with courses.`);
+            return colleges;
+        } catch (error) {
+            repositoryLogger.error("Error fetching filtered colleges with courses", { error: error.message });
+            throw error;
+        }
+    }
 
 }
