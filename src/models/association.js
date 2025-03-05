@@ -8,6 +8,7 @@ import CourseModel from './courses/course.model.js';
 import InterestedListModel from './students_portal/interestedList.model.js';
 import CounselorModel from './colleges/counselor/counselor.model.js';
 import CounselorAvailabilityModel from './colleges/counselor/counselorAvailability.model.js';
+import CollegeApplicationModel from './colleges/college_applications/collegeApplications.model.js';
 
 export default function setupAssociations() {
     UsersModel.hasOne(UserProfileModel, { foreignKey: 'userId', as: 'profile' });
@@ -31,4 +32,7 @@ export default function setupAssociations() {
 
     CounselorModel.hasMany(CounselorAvailabilityModel, { foreignKey: 'counselorId', as: 'availability' });
     CounselorAvailabilityModel.belongsTo(CounselorModel, { foreignKey: 'counselorId', as: 'counselor' });
+
+    CollegeApplicationModel.belongsTo(CollegeModel, { foreignKey: 'collegeId', as: 'college' });
+    CollegeApplicationModel.belongsTo(CourseModel, { foreignKey: 'courseId', as: 'course' });
 }

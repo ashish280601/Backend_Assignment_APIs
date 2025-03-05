@@ -474,3 +474,184 @@
 [2025-03-05T05:44:40.401Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
 [2025-03-05T05:46:06.626Z] [INFO] Fetching availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
 [2025-03-05T06:00:19.979Z] [INFO] Checking availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17 on 2025-03-05
+[2025-03-05T07:14:01.483Z] [INFO] upsertProfile
+[2025-03-05T09:19:25.815Z] [INFO] Received request to fetch all colleges
+[2025-03-05T09:19:25.918Z] [INFO] Fetched 2 colleges successfully
+[2025-03-05T09:20:14.971Z] [INFO] Fetching filtered colleges and courses
+[2025-03-05T09:20:40.085Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:20:40.087Z] [ERROR] Error applying to college for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:27:27.379Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:27:27.382Z] [ERROR] Error applying to college for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:27:30.780Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:27:30.781Z] [ERROR] Error applying to college for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:28:56.157Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:28:56.160Z] [ERROR] Error applying to college for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:29:49.113Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:29:49.145Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:33:05.943Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:33:06.134Z] [INFO] Successfully fetched 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:34:32.727Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:34:32.738Z] [INFO] Successfully fetched 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:36:20.101Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 attempted to apply to a course with missing data
+[2025-03-05T09:36:37.502Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:36:37.634Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:39:08.368Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:39:08.575Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:44:35.884Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:44:36.053Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 has not applied to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af yet
+[2025-03-05T09:45:29.193Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:45:29.301Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 has not applied to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af yet
+[2025-03-05T09:45:54.309Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:45:54.444Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:46:05.590Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:46:05.680Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 tried to apply to a course while college application is Pending
+[2025-03-05T09:46:30.306Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:46:30.402Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 already applied to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:49:46.934Z] [INFO] Updating application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Rejected
+[2025-03-05T09:49:47.067Z] [INFO] Successfully updated application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Rejected
+[2025-03-05T09:50:04.748Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:50:04.870Z] [INFO] Successfully fetched 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:51:27.307Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 attempted to apply to a course with missing data
+[2025-03-05T09:52:19.964Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:52:20.074Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 tried to apply to a course while college application is Rejected
+[2025-03-05T09:53:02.187Z] [INFO] Updating application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Under Review
+[2025-03-05T09:53:02.325Z] [INFO] Successfully updated application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Under Review
+[2025-03-05T09:53:08.147Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:53:08.155Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 tried to apply to a course while college application is Under Review
+[2025-03-05T09:53:17.750Z] [INFO] Updating application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Accepted
+[2025-03-05T09:53:17.758Z] [INFO] Successfully updated application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Accepted
+[2025-03-05T09:54:00.152Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:54:00.272Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:07:30.637Z] [INFO] Updating application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Under Review
+[2025-03-05T10:07:30.693Z] [INFO] Successfully updated application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Under Review
+[2025-03-05T10:07:38.694Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:07:38.699Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 tried to apply to a course while college application is Under Review
+[2025-03-05T10:07:48.420Z] [INFO] Updating application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Accepted
+[2025-03-05T10:07:48.431Z] [INFO] Successfully updated application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Accepted
+[2025-03-05T10:07:53.307Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:07:53.316Z] [ERROR] Error applying to course for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:08:35.229Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:08:35.258Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 attempted to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f which does not belong to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:29.034Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:29.210Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 has not applied to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af yet
+[2025-03-05T10:09:34.799Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:34.840Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:39.276Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:39.281Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 already applied to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:47.570Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:09:47.576Z] [INFO] Successfully fetched 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:10:25.671Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:10:25.802Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:10:31.482Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:10:31.487Z] [INFO] Successfully fetched 2 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:10:40.088Z] [INFO] Updating application a36876a0-46bc-491f-87bf-3d0b36a9c1a9 status to Accepted
+[2025-03-05T10:10:40.092Z] [ERROR] Error updating application status for a36876a0-46bc-491f-87bf-3d0b36a9c1a9
+[2025-03-05T10:10:59.328Z] [INFO] Updating application 814e698c-21de-4005-b8d1-a8214fed695d status to Accepted
+[2025-03-05T10:10:59.545Z] [INFO] Successfully updated application 814e698c-21de-4005-b8d1-a8214fed695d status to Accepted
+[2025-03-05T10:11:04.264Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:11:04.268Z] [INFO] Successfully fetched 2 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:12:29.773Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 814e698c-21de-4005-b8d1-a8214fed695d
+[2025-03-05T10:12:29.870Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 has not applied to college 814e698c-21de-4005-b8d1-a8214fed695d yet
+[2025-03-05T10:12:50.458Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 814e698c-21de-4005-b8d1-a8214fed695d
+[2025-03-05T10:12:50.564Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 has not applied to college 814e698c-21de-4005-b8d1-a8214fed695d yet
+[2025-03-05T10:13:25.041Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:13:25.277Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:13:41.906Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:13:42.119Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 attempted to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f which does not belong to college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:14:00.837Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:14:00.926Z] [INFO] Successfully fetched 3 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:14:49.751Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T10:14:49.856Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T10:15:22.868Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:22.964Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 tried to apply to a course while college application is Under Review
+[2025-03-05T10:15:32.872Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:15:32.888Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:15:36.999Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:37.011Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 attempted to apply to course 347e7208-0f28-4d68-b7f8-49a9de6f6992 which does not belong to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:53.659Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:53.774Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:16:25.960Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:16:26.164Z] [INFO] Successfully fetched 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:25:42.329Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:25:42.461Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:27:32.577Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:27:32.614Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:36:31.523Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:36:31.613Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:37:24.284Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:37:24.676Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:48:59.817Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:48:59.953Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:06.084Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:06.089Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:08.892Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:08.897Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:10.875Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:10.879Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:14.843Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:14.848Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:17.003Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:17.007Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:49:32.429Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Rejected
+[2025-03-05T10:49:32.556Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Rejected
+[2025-03-05T10:51:58.177Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Rejected
+[2025-03-05T10:51:58.278Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Rejected
+[2025-03-05T10:54:33.408Z] [INFO] Updating Course application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T10:54:33.411Z] [ERROR] Error updating Course application status for 8f382538-4d84-484c-9d67-99cb6d87efed
+[2025-03-05T10:55:11.859Z] [INFO] Updating Course application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T10:55:11.886Z] [INFO] Successfully updated Course application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T10:57:36.726Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T10:57:36.740Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T10:57:49.595Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:57:49.705Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T10:57:53.185Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:57:53.251Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:59:04.240Z] [INFO] Fetching filtered colleges and courses
+[2025-03-05T11:00:01.187Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:00:01.296Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:00:23.370Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:00:23.477Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:01:42.853Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:01:43.026Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:03:54.901Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:03:55.050Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:04:04.175Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:04:04.196Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:04:30.897Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T11:04:30.998Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Under Review
+[2025-03-05T11:04:34.743Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:04:34.765Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:05:20.254Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T11:05:20.353Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T11:05:23.425Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:05:23.449Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:36.052Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:36.089Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:51.848Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Pending
+[2025-03-05T11:09:51.963Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Pending
+[2025-03-05T11:09:55.381Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:55.409Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:10:09.289Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:10:09.380Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 tried to apply to a course while college application is Pending
+[2025-03-05T11:10:19.313Z] [INFO] Updating application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T11:10:19.326Z] [INFO] Successfully updated application 8f382538-4d84-484c-9d67-99cb6d87efed status to Accepted
+[2025-03-05T11:10:23.347Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:10:23.371Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 already applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:10:27.758Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:10:27.778Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:03.710Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:14:03.822Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 successfully applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:14:09.904Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:09.922Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:47.503Z] [INFO] Updating application ca8302ca-6aae-487e-ac50-8cab0a2b5128 status to Under Review
+[2025-03-05T11:14:47.600Z] [INFO] Successfully updated application ca8302ca-6aae-487e-ac50-8cab0a2b5128 status to Under Review
+[2025-03-05T11:14:50.243Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:50.267Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:15:09.571Z] [INFO] Updating application f696eef8-3ce1-403e-b0b9-66b6808ee6eb status to Accepted
+[2025-03-05T11:15:09.671Z] [INFO] Successfully updated application f696eef8-3ce1-403e-b0b9-66b6808ee6eb status to Accepted
+[2025-03-05T11:15:12.207Z] [INFO] Fetching applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:15:12.242Z] [INFO] Successfully fetched applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:15:27.270Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course bfef0c79-32ab-4e12-a563-114f0e95ad9f in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:15:27.367Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 already applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:16:11.245Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course f4ae3e5e-b973-4bb0-bc31-97c61956819b in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:16:11.361Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 attempted to apply to course f4ae3e5e-b973-4bb0-bc31-97c61956819b which does not belong to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504

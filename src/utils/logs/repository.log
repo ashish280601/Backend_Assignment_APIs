@@ -666,3 +666,331 @@
 [2025-03-05T05:44:40.401Z] [INFO] Fetching all counselors for college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
 [2025-03-05T05:46:06.626Z] [INFO] Fetching availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
 [2025-03-05T06:00:19.981Z] [INFO] Checking availability conflict for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
+[2025-03-05T07:13:34.021Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-05T07:14:01.484Z] [INFO] upsertProfileData - Start upserting profile data
+[2025-03-05T07:14:01.535Z] [INFO] upsertProfileData - Created new personal details
+[2025-03-05T07:14:01.553Z] [INFO] upsertProfileData - Created qualification
+[2025-03-05T07:14:01.558Z] [INFO] upsertProfileData - Created qualification
+[2025-03-05T07:14:01.545Z] [INFO] upsertProfileData - Created qualification
+[2025-03-05T07:14:01.567Z] [INFO] upsertProfileData - Created test
+[2025-03-05T07:14:01.574Z] [INFO] upsertProfileData - Created test
+[2025-03-05T07:14:01.583Z] [INFO] upsertProfileData - Created test
+[2025-03-05T07:14:01.589Z] [INFO] upsertProfileData - Created test
+[2025-03-05T07:14:01.599Z] [INFO] upsertProfileData - Created test
+[2025-03-05T07:14:01.610Z] [INFO] upsertProfileData - Created passport
+[2025-03-05T08:14:58.126Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-05T09:18:18.332Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-05T09:19:25.918Z] [INFO] Fetched all colleges successfully.
+[2025-03-05T09:20:14.972Z] [INFO] Applying filters for colleges and courses
+[2025-03-05T09:20:15.220Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-05T09:20:40.085Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:20:40.085Z] [ERROR] Error fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:27:27.381Z] [ERROR] Error fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:27:27.381Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:27:30.781Z] [ERROR] Error fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:27:30.780Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:28:56.158Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:28:56.158Z] [ERROR] Error fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:29:49.114Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:29:49.123Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T09:29:49.124Z] [INFO] Creating College application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: b0e2d57a-b183-4b69-bedf-8dfa45e5d504, Course: null
+[2025-03-05T09:29:49.145Z] [INFO] Successfully created College application with ID: c5a4bc5b-c1d2-462b-9646-55c7b878c3e6
+[2025-03-05T09:33:05.944Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:33:06.133Z] [INFO] Found 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:34:32.728Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:34:32.737Z] [INFO] Found 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:36:37.502Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T09:36:37.605Z] [INFO] No course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T09:36:37.606Z] [INFO] Creating Course application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: b0e2d57a-b183-4b69-bedf-8dfa45e5d504, Course: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T09:36:37.633Z] [INFO] Successfully created Course application with ID: 07e424be-0d29-4495-ad5e-62eda630d93f
+[2025-03-05T09:39:08.368Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T09:39:08.556Z] [INFO] No course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T09:39:08.556Z] [INFO] Creating Course application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: 7ba45f09-08ae-4e62-bc2e-cef887dd96af, Course: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T09:39:08.575Z] [INFO] Successfully created Course application with ID: 62ffedbd-6fc4-4224-98c9-bd57729ce325
+[2025-03-05T09:44:35.886Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:44:36.053Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:45:29.193Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:45:29.301Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:45:54.309Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:45:54.415Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:45:54.415Z] [INFO] Creating College application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: 7ba45f09-08ae-4e62-bc2e-cef887dd96af, Course: null
+[2025-03-05T09:45:54.444Z] [INFO] Successfully created College application with ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9
+[2025-03-05T09:46:05.590Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:46:05.680Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:46:30.307Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:46:30.402Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:47:40.704Z] [INFO] Fetched user by email: admin@example.com
+[2025-03-05T09:49:46.934Z] [INFO] Updating application status for application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to Rejected
+[2025-03-05T09:49:47.067Z] [INFO] Successfully updated application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to status: Rejected
+[2025-03-05T09:50:04.749Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:50:04.869Z] [INFO] Found 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T09:52:19.964Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:52:20.073Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:53:02.187Z] [INFO] Updating application status for application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to Under Review
+[2025-03-05T09:53:02.325Z] [INFO] Successfully updated application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to status: Under Review
+[2025-03-05T09:53:08.147Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:53:08.155Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:53:17.750Z] [INFO] Updating application status for application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to Accepted
+[2025-03-05T09:53:17.758Z] [INFO] Successfully updated application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to status: Accepted
+[2025-03-05T09:54:00.153Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:54:00.252Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T09:54:00.256Z] [INFO] Creating Course application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: 7ba45f09-08ae-4e62-bc2e-cef887dd96af, Course: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T09:54:00.256Z] [INFO] No course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T09:54:00.253Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T09:54:00.272Z] [INFO] Successfully created Course application with ID: f8efb996-c343-4e8e-8272-53dd90874778
+[2025-03-05T10:07:30.639Z] [INFO] Updating application status for application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to Under Review
+[2025-03-05T10:07:30.693Z] [INFO] Successfully updated application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to status: Under Review
+[2025-03-05T10:07:38.695Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:07:38.699Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:07:48.420Z] [INFO] Updating application status for application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to Accepted
+[2025-03-05T10:07:48.431Z] [INFO] Successfully updated application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to status: Accepted
+[2025-03-05T10:07:53.308Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:07:53.315Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:08:35.230Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:08:35.239Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:08:35.239Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:08:35.258Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:09:29.034Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:29.209Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:34.800Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:34.806Z] [INFO] Creating College application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: 7ba45f09-08ae-4e62-bc2e-cef887dd96af, Course: null
+[2025-03-05T10:09:34.805Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:34.840Z] [INFO] Successfully created College application with ID: 814e698c-21de-4005-b8d1-a8214fed695d
+[2025-03-05T10:09:39.276Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:39.281Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:09:47.571Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:09:47.576Z] [INFO] Found 1 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:10:25.671Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:10:25.793Z] [INFO] Creating College application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: b0e2d57a-b183-4b69-bedf-8dfa45e5d504, Course: null
+[2025-03-05T10:10:25.793Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:10:25.802Z] [INFO] Successfully created College application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed
+[2025-03-05T10:10:31.482Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:10:31.487Z] [INFO] Found 2 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:10:40.089Z] [INFO] Updating application status for application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9 to Accepted
+[2025-03-05T10:10:40.092Z] [ERROR] Error updating application status for application ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9
+[2025-03-05T10:10:40.092Z] [WARN] Application not found with ID: a36876a0-46bc-491f-87bf-3d0b36a9c1a9
+[2025-03-05T10:10:59.328Z] [INFO] Updating application status for application ID: 814e698c-21de-4005-b8d1-a8214fed695d to Accepted
+[2025-03-05T10:10:59.545Z] [INFO] Successfully updated application ID: 814e698c-21de-4005-b8d1-a8214fed695d to status: Accepted
+[2025-03-05T10:11:04.264Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:11:04.268Z] [INFO] Found 2 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:12:29.773Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 814e698c-21de-4005-b8d1-a8214fed695d
+[2025-03-05T10:12:29.870Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 814e698c-21de-4005-b8d1-a8214fed695d
+[2025-03-05T10:12:50.458Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 814e698c-21de-4005-b8d1-a8214fed695d
+[2025-03-05T10:12:50.563Z] [INFO] No college application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 814e698c-21de-4005-b8d1-a8214fed695d
+[2025-03-05T10:13:25.041Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:13:25.248Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:13:25.248Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:13:25.266Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:13:25.266Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:13:25.269Z] [INFO] No course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:13:25.270Z] [INFO] Creating Course application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: 7ba45f09-08ae-4e62-bc2e-cef887dd96af, Course: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:13:25.277Z] [INFO] Successfully created Course application with ID: f696eef8-3ce1-403e-b0b9-66b6808ee6eb
+[2025-03-05T10:13:41.906Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:13:42.103Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:13:42.103Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T10:13:42.119Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:14:00.837Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:14:00.926Z] [INFO] Found 3 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:14:49.751Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Under Review
+[2025-03-05T10:14:49.856Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Under Review
+[2025-03-05T10:15:22.868Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:22.964Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:32.872Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:15:32.887Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:15:36.999Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:37.003Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:15:37.003Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:37.011Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:15:53.659Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:53.757Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T10:15:53.757Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:15:53.764Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:15:53.764Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:15:53.768Z] [INFO] No course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:15:53.768Z] [INFO] Creating Course application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: b0e2d57a-b183-4b69-bedf-8dfa45e5d504, Course: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:15:53.774Z] [INFO] Successfully created Course application with ID: b106be18-a577-400c-a36d-7ee6ed87726f
+[2025-03-05T10:16:25.960Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:16:26.164Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:25:28.711Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-05T10:25:42.329Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:25:42.430Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:25:42.440Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:25:42.453Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:25:42.457Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:25:42.460Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:27:32.578Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:27:32.587Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:27:32.598Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:27:32.607Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:27:32.611Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:27:32.614Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:36:31.527Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:36:31.550Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:36:31.578Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:36:31.597Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:36:31.607Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:36:31.612Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:37:24.284Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:37:24.637Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:37:24.651Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:37:24.663Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:37:24.675Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:37:24.669Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:48:33.840Z] [INFO] Fetched user by email: asmehra0628@gmail.com
+[2025-03-05T10:48:44.882Z] [INFO] Fetched user by email: admin@example.com
+[2025-03-05T10:48:59.817Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:48:59.950Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:48:59.953Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:49:06.084Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:49:06.088Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:49:06.089Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:49:08.892Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:49:08.897Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:49:08.896Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:49:10.875Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:49:10.879Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:49:10.879Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:49:14.843Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:49:14.848Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:49:14.848Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:49:17.003Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:49:17.007Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:49:17.006Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:49:32.429Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Rejected
+[2025-03-05T10:49:32.532Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:49:32.556Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Rejected
+[2025-03-05T10:51:58.177Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Rejected
+[2025-03-05T10:51:58.278Z] [INFO] Successfully updated college application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Rejected
+[2025-03-05T10:51:58.277Z] [INFO] Found college application with ID: 8f382538-4d84-484c-9d67-99cb6d87efed, updating status.
+[2025-03-05T10:54:33.409Z] [INFO] Updating Course application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Under Review
+[2025-03-05T10:54:33.409Z] [ERROR] Error updating Course application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed
+[2025-03-05T10:55:11.860Z] [INFO] Updating Course application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Under Review
+[2025-03-05T10:55:11.886Z] [INFO] Successfully updated Course application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Under Review
+[2025-03-05T10:57:36.727Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Under Review
+[2025-03-05T10:57:36.740Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Under Review
+[2025-03-05T10:57:49.595Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T10:57:49.705Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T10:57:53.186Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:57:53.199Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T10:57:53.218Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:57:53.233Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T10:57:53.233Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:57:53.242Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T10:59:04.241Z] [INFO] Applying filters for colleges and courses
+[2025-03-05T10:59:04.349Z] [INFO] Fetched 2 filtered colleges with courses.
+[2025-03-05T11:00:01.188Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:00:01.276Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:00:01.283Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:00:01.290Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:00:01.290Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:00:01.293Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:00:23.370Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:00:23.457Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:00:23.463Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:00:23.470Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:00:23.470Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:00:23.474Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:01:42.853Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:01:42.995Z] [INFO] Found 3 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:01:43.022Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:01:43.003Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:03:54.902Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:03:55.018Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:03:55.018Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:03:55.027Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:03:55.030Z] [INFO] No course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:03:55.027Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:03:55.030Z] [INFO] Creating Course application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: b0e2d57a-b183-4b69-bedf-8dfa45e5d504, Course: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:03:55.050Z] [INFO] Successfully created Course application with ID: f1d5cf4c-3714-4a29-a572-26ca20b68923
+[2025-03-05T11:04:04.175Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:04:04.178Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:04:04.192Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:04:04.196Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:04:04.185Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:04:04.187Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:04:30.897Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Under Review
+[2025-03-05T11:04:30.998Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Under Review
+[2025-03-05T11:04:34.743Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:04:34.747Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:04:34.753Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:04:34.761Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:04:34.761Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:04:34.764Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:05:20.254Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T11:05:20.352Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T11:05:23.425Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:05:23.427Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:05:23.432Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:05:23.439Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:05:23.439Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:05:23.444Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:09:36.052Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:36.060Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:36.071Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:09:36.080Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:09:36.080Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:09:36.084Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:09:51.848Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Pending
+[2025-03-05T11:09:51.963Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Pending
+[2025-03-05T11:09:55.381Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:55.385Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:09:55.392Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:09:55.401Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:09:55.401Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:09:55.405Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:10:09.289Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:10:09.380Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:10:19.313Z] [INFO] Updating application status for application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to Accepted
+[2025-03-05T11:10:19.325Z] [INFO] Successfully updated application ID: 8f382538-4d84-484c-9d67-99cb6d87efed to status: Accepted
+[2025-03-05T11:10:23.347Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:10:23.351Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:10:23.351Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:10:23.364Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:10:23.365Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:10:23.371Z] [INFO] Course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:10:27.758Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:10:27.760Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:10:27.769Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:10:27.772Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:10:27.772Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:10:27.775Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:03.710Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:14:03.795Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:14:03.795Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:03.802Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:03.806Z] [INFO] Creating Course application for student a34b04a2-f807-44db-8000-5dd3dd262696 - College: b0e2d57a-b183-4b69-bedf-8dfa45e5d504, Course: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:03.806Z] [INFO] No course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:03.802Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:03.822Z] [INFO] Successfully created Course application with ID: ca8302ca-6aae-487e-ac50-8cab0a2b5128
+[2025-03-05T11:14:09.904Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:09.907Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:09.917Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:14:09.920Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:09.913Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:14:09.922Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:47.503Z] [INFO] Updating application status for application ID: ca8302ca-6aae-487e-ac50-8cab0a2b5128 to Under Review
+[2025-03-05T11:14:47.600Z] [INFO] Successfully updated application ID: ca8302ca-6aae-487e-ac50-8cab0a2b5128 to status: Under Review
+[2025-03-05T11:14:50.243Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:50.246Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:14:50.251Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:14:50.263Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:14:50.259Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:14:50.266Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:15:09.572Z] [INFO] Updating application status for application ID: f696eef8-3ce1-403e-b0b9-66b6808ee6eb to Accepted
+[2025-03-05T11:15:09.670Z] [INFO] Successfully updated application ID: f696eef8-3ce1-403e-b0b9-66b6808ee6eb to status: Accepted
+[2025-03-05T11:15:12.207Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:15:12.210Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:15:12.220Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:15:12.231Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:15:12.242Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:15:12.230Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:15:27.270Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:15:27.355Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:15:27.356Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:15:27.363Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:15:27.363Z] [INFO] Fetching course application for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:15:27.367Z] [INFO] Course application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in course bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:16:11.246Z] [INFO] Fetching college application for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:16:11.354Z] [INFO] Fetching course with ID: f4ae3e5e-b973-4bb0-bc31-97c61956819b
+[2025-03-05T11:16:11.354Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:16:11.361Z] [INFO] Course found with ID: f4ae3e5e-b973-4bb0-bc31-97c61956819b

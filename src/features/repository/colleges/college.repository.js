@@ -4,6 +4,7 @@ import { Op } from "sequelize";
 // custom import
 import CollegeModel from "../../../models/colleges/college.model.js";
 import CourseModel from "../../../models/courses/course.model.js";
+import CollegeApplicationModel from "../../../models/colleges/college_applications/collegeApplications.model.js";
 import { repositoryLogger } from "../../../utils/logger.js";
 
 export default class CollegeRepository {
@@ -213,4 +214,123 @@ export default class CollegeRepository {
         }
     }
 
+}
+
+export class CollegeApplicationRepository extends CollegeRepository{
+
+    async createApplicationData(studentId, collegeId, courseId, type) {
+        try {
+            repositoryLogger.info(`Creating ${type} application for student ${studentId} - College: ${collegeId}, Course: ${courseId}`);
+            const application = await CollegeApplicationModel.create({
+                studentId,
+                collegeId,
+                courseId,
+                type,
+                status: 'Pending'
+            });
+            repositoryLogger.info(`Successfully created ${type} application with ID: ${application.id}`);
+            return application;
+        } catch (error) {
+            repositoryLogger.error(`Error creating ${type} application for student ${studentId}`, { error: error.message });
+            throw error;
+        }
+    }
+
+    async updateApplicationStatusData(applicationId, status) {
+        try {
+            repositoryLogger.info(`Updating application status for application ID: ${applicationId} to ${status}`);
+            const application = await CollegeApplicationModel.findByPk(applicationId);
+            if (!application) {
+                repositoryLogger.warn(`Application not found with ID: ${applicationId}`);
+                throw new Error('APPLICATION_NOT_FOUND');
+            }
+            application.status = status;
+            await application.save();
+            repositoryLogger.info(`Successfully updated application ID: ${applicationId} to status: ${status}`);
+            return application;
+        } catch (error) {
+            repositoryLogger.error(`Error updating application status for application ID: ${applicationId}`, { error: error.message });
+            throw error;
+        }
+    }
+
+    async findCollegeApplicationData(studentId, collegeId) {
+        try {
+            repositoryLogger.info(`Fetching college application for student ${studentId} in college ${collegeId}`);
+            const application = await CollegeApplicationModel.findOne({
+                where: { studentId, collegeId, type: 'College' }
+            });
+            if (application) {
+                repositoryLogger.info(`College application found for student ${studentId} in college ${collegeId}`);
+            } else {
+                repositoryLogger.info(`No college application found for student ${studentId} in college ${collegeId}`);
+            }
+            return application;
+        } catch (error) {
+            repositoryLogger.error(`Error fetching college application for student ${studentId} in college ${collegeId}`, { error: error.message });
+            throw error;
+        }
+    }
+
+    async findCollegeById(collegeId) {
+        try {
+            return await CollegeModel.findOne({ where: { id: collegeId } });
+        } catch (error) {
+            repositoryLogger.error(`Error fetching college details for ID ${collegeId}`, { error: error.message });
+            throw error;
+        }
+    }
+
+    async findCourseById(courseId) {
+        try {
+            repositoryLogger.info(`Fetching course with ID: ${courseId}`);
+            const course = await CourseModel.findOne({
+                where: {
+                    id: courseId
+                }
+            });
+
+            if (course) {
+                repositoryLogger.info(`Course found with ID: ${courseId}`);
+            } else {
+                repositoryLogger.warn(`No course found with ID: ${courseId}`);
+            }
+            return course;
+        } catch (error) {
+            repositoryLogger.error(`Error fetching course with ID: ${courseId}`, { error: error.message });
+            throw error;
+        }
+    }
+
+    async findCourseApplicationData(studentId, courseId) {
+        try {
+            repositoryLogger.info(`Fetching course application for student ${studentId} in course ${courseId}`);
+            const application = await CollegeApplicationModel.findOne({
+                where: { studentId, courseId, type: 'Course' }
+            });
+            if (application) {
+                repositoryLogger.info(`Course application found for student ${studentId} in course ${courseId}`);
+            } else {
+                repositoryLogger.info(`No course application found for student ${studentId} in course ${courseId}`);
+            }
+            return application;
+        } catch (error) {
+            repositoryLogger.error(`Error fetching course application for student ${studentId} in course ${courseId}`, { error: error.message });
+            throw error;
+        }
+    }
+
+    async getApplicationsByStudentData(studentId) {
+        try {
+            repositoryLogger.info(`Fetching all applications for student ${studentId}`);
+            const applications = await CollegeApplicationModel.findAll({
+                where: { studentId }
+            });
+            repositoryLogger.info(`Found ${applications.length} applications for student ${studentId}`);
+            return applications;
+        } catch (error) {
+            repositoryLogger.error(`Error fetching applications for student ${studentId}`, { error: error.message });
+            throw error;
+        }
+    }
 }

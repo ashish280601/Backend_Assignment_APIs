@@ -53,10 +53,6 @@ export default class ProfileDetailsController {
         }
     }
 
-
-
-
-
     async getProfile(req, res) {
         const functionName = 'getProfile';
         const { userId } = req.user;
@@ -134,3 +130,4 @@ export default class ProfileDetailsController {
     }
 
 }
+

@@ -25,6 +25,7 @@ router.get('/', (req, res) => {
 router.use('/v1/users', userRouter);
 router.use('/v1/profile', profileRouter)
 router.use('/v1/college', collegeRouter)
+router.use('/v1/application', collegeRouter)
 router.use('/v1/course', courseRouter)
 router.use('/v1/shortlist', interestedListRouter)
 router.use('/v1/counselor', counselorRouter)
