@@ -21,4 +21,25 @@ async function initializeAdmin() {
     }
 }
 
+/***
+ *  this is not the best approach as to create counselor, staff or tutor 
+ * For this we can create a onboarding system but at this time for test practice i have created this way.
+ */
+export async function initializeConselor() {
+    const existingAdmin = await UsersModel.findOne({ where: { role: 'Counselor' } });
+    
+    if (!existingAdmin) {
+        await UsersModel.create({
+            email: "counselor@gmail.com",
+            password: await bcrypt.hash('counselor', 10),
+            role: 'Counselor',
+            registrationType: 'Email',
+            status: 'REGISTERED'
+        });
+        console.log('Counselor user created.');
+    } else {
+        console.log('Counselor already exists.');
+    }
+}
+
 export default initializeAdmin;

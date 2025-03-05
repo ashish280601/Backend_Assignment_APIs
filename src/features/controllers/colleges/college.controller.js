@@ -1,4 +1,4 @@
-import CollegeRepository from "../../repository/college.repository.js";
+import CollegeRepository from "../../repository/colleges/college.repository.js";
 import { controllerLogger } from "../../../utils/logger.js";
 import sendResponse from "../../../utils/responseHelper.js";
 

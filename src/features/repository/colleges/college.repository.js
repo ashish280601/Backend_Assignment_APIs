@@ -2,9 +2,9 @@
 import { Op } from "sequelize";
 
 // custom import
-import CollegeModel from "../../models/colleges/college.model.js";
-import CourseModel from "../../models/courses/course.model.js";
-import { repositoryLogger } from "../../utils/logger.js";
+import CollegeModel from "../../../models/colleges/college.model.js";
+import CourseModel from "../../../models/courses/course.model.js";
+import { repositoryLogger } from "../../../utils/logger.js";
 
 export default class CollegeRepository {
     // write your code logic here

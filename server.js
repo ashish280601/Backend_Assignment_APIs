@@ -6,8 +6,8 @@ import cors from "cors";
 // custom import
 import {connectDB, closeDB} from "./src/config/db.js";
 import router from "./routes.js";
-import setupAssociations from "./src/models/students_portal/student_profile_details/association.js";
-import initializeAdmin from "./src/seeders/initializeAdmin.js";
+import setupAssociations from "./src/models/association.js";
+import initializeAdmin, { initializeConselor } from "./src/seeders/initializeAdmin.js";
 
 setupAssociations();
 
@@ -30,6 +30,7 @@ app.listen(port, async () => {
         console.log(`Server is running at port ${port}`);
       await connectDB();
       await initializeAdmin(); 
+      await initializeConselor();
     } catch (error) {
         console.error("Error while connecting to database", error);
     }

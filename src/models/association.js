@@ -1,11 +1,13 @@
-import UsersModel from '../users.model.js';
-import UserProfileModel from './personal_details.model.js';
-import QualificationModel from './qualification_details.model.js'
-import TestModel from './test_details.model.js';
-import PassportModel from "./passport_details.model.js"
-import CollegeModel from '../../colleges/college.model.js';
-import CourseModel from '../../courses/course.model.js'; 
-import InterestedListModel from '../interestedList.model.js';
+import UsersModel from './students_portal/users.model.js';
+import UserProfileModel from './students_portal/student_profile_details/personal_details.model.js';
+import QualificationModel from './students_portal/student_profile_details/qualification_details.model.js'
+import TestModel from './students_portal/student_profile_details/test_details.model.js';
+import PassportModel from "./students_portal/student_profile_details/passport_details.model.js"
+import CollegeModel from './colleges/college.model.js';
+import CourseModel from './courses/course.model.js';
+import InterestedListModel from './students_portal/interestedList.model.js';
+import CounselorModel from './colleges/counselor/counselor.model.js';
+import CounselorAvailabilityModel from './colleges/counselor/counselorAvailability.model.js';
 
 export default function setupAssociations() {
     UsersModel.hasOne(UserProfileModel, { foreignKey: 'userId', as: 'profile' });
@@ -26,4 +28,7 @@ export default function setupAssociations() {
     InterestedListModel.belongsTo(CourseModel, { foreignKey: 'courseId', as: 'course' });
 
     UsersModel.hasMany(InterestedListModel, { foreignKey: 'studentId', as: 'interestedList' });
+
+    CounselorModel.hasMany(CounselorAvailabilityModel, { foreignKey: 'counselorId', as: 'availability' });
+    CounselorAvailabilityModel.belongsTo(CounselorModel, { foreignKey: 'counselorId', as: 'counselor' });
 }

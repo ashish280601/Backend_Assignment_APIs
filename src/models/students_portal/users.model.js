@@ -43,7 +43,7 @@ const UsersModel = sequelize.define("Users", {
         defaultValue: 'PENDING'
     },
     role: {
-        type: DataTypes.ENUM('Admin', 'Tutor', 'Student', 'Staff'),
+        type: DataTypes.ENUM('Admin', 'Tutor', 'Student', 'Staff', 'Counselor'),
         allowNull: false,
         defaultValue: 'Student'
     }

@@ -365,3 +365,112 @@
 [2025-03-04T17:37:12.690Z] [INFO] Fetched interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
 [2025-03-04T17:40:13.005Z] [INFO] Removed item from interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
 [2025-03-04T17:40:28.647Z] [INFO] Fetched interested list for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T04:32:12.746Z] [INFO] Received request to fetch all colleges
+[2025-03-05T04:32:12.856Z] [INFO] Fetched 2 colleges successfully
+[2025-03-05T04:35:22.303Z] [INFO] Starting create counselor process
+[2025-03-05T04:35:22.305Z] [ERROR] Error creating counselor
+[2025-03-05T04:35:27.725Z] [INFO] Starting create counselor process
+[2025-03-05T04:35:27.726Z] [ERROR] Error creating counselor
+[2025-03-05T04:35:55.637Z] [INFO] Starting create counselor process
+[2025-03-05T04:35:55.638Z] [ERROR] Error creating counselor
+[2025-03-05T04:41:56.959Z] [ERROR] Error creating counselor
+[2025-03-05T04:41:56.958Z] [INFO] Starting create counselor process
+[2025-03-05T04:44:50.456Z] [INFO] Starting create counselor process
+[2025-03-05T04:44:50.457Z] [ERROR] Error creating counselor
+[2025-03-05T04:48:42.230Z] [INFO] Starting create counselor process
+[2025-03-05T04:48:42.231Z] [ERROR] Error creating counselor
+[2025-03-05T04:49:20.928Z] [INFO] Starting create counselor process
+[2025-03-05T04:49:20.930Z] [ERROR] Error creating counselor
+[2025-03-05T04:49:53.959Z] [INFO] Starting create counselor process
+[2025-03-05T04:49:53.961Z] [ERROR] Error creating counselor
+[2025-03-05T04:50:08.349Z] [INFO] Starting create counselor process
+[2025-03-05T04:50:08.351Z] [ERROR] Error creating counselor
+[2025-03-05T04:50:29.991Z] [INFO] Starting create counselor process
+[2025-03-05T04:50:29.994Z] [ERROR] Error creating counselor
+[2025-03-05T04:50:44.893Z] [INFO] Starting create counselor process
+[2025-03-05T04:50:44.896Z] [ERROR] Error creating counselor
+[2025-03-05T04:51:15.753Z] [INFO] Starting create counselor process
+[2025-03-05T04:51:15.756Z] [ERROR] Error creating counselor
+[2025-03-05T04:51:26.392Z] [INFO] Starting create counselor process
+[2025-03-05T04:51:26.395Z] [ERROR] Error creating counselor
+[2025-03-05T04:52:14.009Z] [INFO] Starting create counselor process
+[2025-03-05T04:52:14.013Z] [ERROR] Error creating counselor
+[2025-03-05T04:52:16.862Z] [INFO] Starting create counselor process
+[2025-03-05T04:52:16.865Z] [ERROR] Error creating counselor
+[2025-03-05T04:52:42.785Z] [INFO] Starting create counselor process
+[2025-03-05T04:52:42.788Z] [ERROR] Error creating counselor
+[2025-03-05T04:52:47.322Z] [INFO] Starting create counselor process
+[2025-03-05T04:52:47.324Z] [ERROR] Error creating counselor
+[2025-03-05T04:53:55.486Z] [INFO] Starting create counselor process
+[2025-03-05T04:53:55.495Z] [ERROR] Error creating counselor
+[2025-03-05T04:58:38.562Z] [INFO] Starting create counselor process
+[2025-03-05T04:58:38.629Z] [INFO] Counselor created successfully
+[2025-03-05T05:00:28.803Z] [INFO] Starting create counselor process
+[2025-03-05T05:00:29.016Z] [INFO] Counselor created successfully
+[2025-03-05T05:01:26.084Z] [INFO] Starting create counselor process
+[2025-03-05T05:01:26.188Z] [INFO] Counselor created successfully
+[2025-03-05T05:02:36.875Z] [INFO] Fetching all counselors for college ID: undefined
+[2025-03-05T05:02:36.947Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:02:53.897Z] [INFO] Fetching all counselors for college ID: undefined
+[2025-03-05T05:02:53.898Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:03:48.538Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:03:48.538Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:03:55.821Z] [INFO] Fetching all counselors for college ID: "7ba45f09-08ae-4e62-bc2e-cef887dd96af"
+[2025-03-05T05:03:55.821Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:04:22.253Z] [INFO] Fetching all counselors for college ID: "7ba45f09-08ae-4e62-bc2e-cef887dd96af"
+[2025-03-05T05:04:22.256Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:06:01.795Z] [INFO] Fetching all counselors for college ID: "7ba45f09-08ae-4e62-bc2e-cef887dd96af"
+[2025-03-05T05:06:01.798Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:06:04.858Z] [INFO] Fetching all counselors for college ID: "7ba45f09-08ae-4e62-bc2e-cef887dd96af"
+[2025-03-05T05:06:04.859Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:06:42.329Z] [INFO] Fetching all counselors for college ID: "7ba45f09-08ae-4e62-bc2e-cef887dd96af"
+[2025-03-05T05:06:42.336Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:12:17.659Z] [INFO] Fetching all counselors for college ID: "7ba45f09-08ae-4e62-bc2e-cef887dd96af"
+[2025-03-05T05:12:17.664Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:15:41.495Z] [INFO] Fetching all counselors for college ID: "7ba45f09-08ae-4e62-bc2e-cef887dd96af"
+[2025-03-05T05:15:41.515Z] [ERROR] Error fetching all counselors
+[2025-03-05T05:15:48.593Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:18:20.520Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:19:02.393Z] [INFO] Fetching counselor data for ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:20:50.258Z] [INFO] Updating counselor with ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:20:50.353Z] [ERROR] Error updating counselor for ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:21:28.788Z] [INFO] Updating counselor with ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:21:28.802Z] [ERROR] Error updating counselor for ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:24:43.251Z] [INFO] Updating counselor with ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:24:54.389Z] [INFO] Fetching counselor data for ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:25:55.036Z] [INFO] Deleting counselor with ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:26:00.901Z] [INFO] Fetching counselor data for ID: bf2e9d15-29ff-47ee-a5c0-9d8eb86a2986
+[2025-03-05T05:26:26.111Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:26:34.190Z] [INFO] Starting create counselor process
+[2025-03-05T05:26:34.226Z] [INFO] Counselor created successfully
+[2025-03-05T05:26:39.647Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:27:11.863Z] [INFO] Starting create counselor process
+[2025-03-05T05:27:12.094Z] [INFO] Counselor created successfully
+[2025-03-05T05:27:16.396Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:30:10.705Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:34:12.023Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:34:12.031Z] [ERROR] Error adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:34:42.850Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:34:42.860Z] [ERROR] Error adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:36:16.166Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:36:16.169Z] [ERROR] Error adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:39:50.459Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:41:39.794Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:41:39.912Z] [WARN] Time slot conflict for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:41:49.312Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:41:49.318Z] [WARN] Time slot conflict for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:42:02.646Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:42:24.791Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:42:50.863Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:43:23.092Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:43:41.384Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:43:43.879Z] [INFO] Adding availability for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:43:43.883Z] [WARN] Time slot conflict for counselor 8d2a2195-3ba8-435c-9193-12cfb89537e1
+[2025-03-05T05:43:55.925Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:44:24.484Z] [INFO] Adding availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
+[2025-03-05T05:44:34.171Z] [INFO] Adding availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
+[2025-03-05T05:44:35.674Z] [INFO] Adding availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
+[2025-03-05T05:44:35.678Z] [WARN] Time slot conflict for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
+[2025-03-05T05:44:40.401Z] [INFO] Fetching all counselors for college ID: 7ba45f09-08ae-4e62-bc2e-cef887dd96af
+[2025-03-05T05:46:06.626Z] [INFO] Fetching availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17
+[2025-03-05T06:00:19.979Z] [INFO] Checking availability for counselor e1a6e8b9-4b54-4196-81ab-678cc4a77e17 on 2025-03-05
