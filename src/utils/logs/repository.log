@@ -994,3 +994,19 @@
 [2025-03-05T11:16:11.354Z] [INFO] Fetching course with ID: f4ae3e5e-b973-4bb0-bc31-97c61956819b
 [2025-03-05T11:16:11.354Z] [INFO] College application found for student a34b04a2-f807-44db-8000-5dd3dd262696 in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
 [2025-03-05T11:16:11.361Z] [INFO] Course found with ID: f4ae3e5e-b973-4bb0-bc31-97c61956819b
+[2025-03-05T11:28:53.782Z] [INFO] Fetching all applications for student 48ecb3cc-257d-4472-9a51-0aacc94ac0c4
+[2025-03-05T11:28:53.869Z] [INFO] Found 0 applications for student 48ecb3cc-257d-4472-9a51-0aacc94ac0c4
+[2025-03-05T11:30:01.610Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:30:01.619Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:30:01.631Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:30:01.640Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:30:01.640Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:30:01.644Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:30:34.464Z] [INFO] Fetching all applications for student bcc814ff-d986-467d-abbb-a7230d990548
+[2025-03-05T11:30:34.553Z] [INFO] Found 0 applications for student bcc814ff-d986-467d-abbb-a7230d990548
+[2025-03-05T11:30:40.308Z] [INFO] Fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:30:40.312Z] [INFO] Found 4 applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:30:40.324Z] [INFO] Fetching course with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:30:40.332Z] [INFO] Fetching course with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992
+[2025-03-05T11:30:40.332Z] [INFO] Course found with ID: bfef0c79-32ab-4e12-a563-114f0e95ad9f
+[2025-03-05T11:30:40.335Z] [INFO] Course found with ID: 347e7208-0f28-4d68-b7f8-49a9de6f6992

@@ -26,5 +26,6 @@ collegeRouter.post('/apply/course', jwtAuth, authorizeRoles(['Admin', 'Student']
 collegeRouter.patch('/application/status', jwtAuth, authorizeRoles(['Admin']), (req, res) => collegeApplicationController.updateApplicationStatus(req, res));
 // Fetch all applications for a student
 collegeRouter.get('/student/status', jwtAuth, authorizeRoles(['Student']), (req, res) => collegeApplicationController.getStudentApplications(req, res));
+collegeRouter.get('/admin/student/:studentId', jwtAuth, authorizeRoles(['Admin']), (req, res) => collegeApplicationController.getAllApplicationsForStudent(req, res));
 
 export default collegeRouter;

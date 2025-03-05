@@ -655,3 +655,11 @@
 [2025-03-05T11:15:27.367Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 already applied to course bfef0c79-32ab-4e12-a563-114f0e95ad9f
 [2025-03-05T11:16:11.245Z] [INFO] Student a34b04a2-f807-44db-8000-5dd3dd262696 is attempting to apply to course f4ae3e5e-b973-4bb0-bc31-97c61956819b in college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
 [2025-03-05T11:16:11.361Z] [WARN] Student a34b04a2-f807-44db-8000-5dd3dd262696 attempted to apply to course f4ae3e5e-b973-4bb0-bc31-97c61956819b which does not belong to college b0e2d57a-b183-4b69-bedf-8dfa45e5d504
+[2025-03-05T11:28:53.781Z] [INFO] Fetching applications for student 48ecb3cc-257d-4472-9a51-0aacc94ac0c4
+[2025-03-05T11:28:53.869Z] [INFO] Successfully fetched applications for student 48ecb3cc-257d-4472-9a51-0aacc94ac0c4
+[2025-03-05T11:30:01.609Z] [INFO] Admin fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:30:01.644Z] [INFO] Admin successfully fetched all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:30:34.463Z] [INFO] Admin fetching all applications for student bcc814ff-d986-467d-abbb-a7230d990548
+[2025-03-05T11:30:34.553Z] [INFO] Admin successfully fetched all applications for student bcc814ff-d986-467d-abbb-a7230d990548
+[2025-03-05T11:30:40.308Z] [INFO] Admin fetching all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
+[2025-03-05T11:30:40.335Z] [INFO] Admin successfully fetched all applications for student a34b04a2-f807-44db-8000-5dd3dd262696
